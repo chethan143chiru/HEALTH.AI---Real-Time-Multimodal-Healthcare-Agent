@@ -1,0 +1,2219 @@
+disease_id,disease_name,symptom_id,symptom_name,association_weight,is_primary_symptom
+DIS_00001,Malaria (Plasmodium Falciparum),SYM_00001,High Grade Fever,0.95,1
+DIS_00001,Malaria (Plasmodium Falciparum),SYM_00004,Chills with Shivering,0.83,0
+DIS_00001,Malaria (Plasmodium Falciparum),SYM_00008,Profuse Night Sweats,0.71,0
+DIS_00001,Malaria (Plasmodium Falciparum),SYM_00010,Generalized Malaise,0.59,0
+DIS_00001,Malaria (Plasmodium Falciparum),SYM_00016,Acute Dry Cough,0.47,0
+DIS_00002,Dengue Hemorrhagic Fever,SYM_00001,High Grade Fever,0.95,1
+DIS_00002,Dengue Hemorrhagic Fever,SYM_00045,Throbbing Hemicranial Headache,0.83,0
+DIS_00002,Dengue Hemorrhagic Fever,SYM_00035,Severe Abdominal Cramping,0.71,0
+DIS_00002,Dengue Hemorrhagic Fever,SYM_00014,Easy Bruising,0.59,0
+DIS_00003,Typhoid Fever (Enteric Fever),SYM_00003,Intermittent Fever,0.95,1
+DIS_00003,Typhoid Fever (Enteric Fever),SYM_00035,Severe Abdominal Cramping,0.83,0
+DIS_00003,Typhoid Fever (Enteric Fever),SYM_00009,Loss of Appetite,0.71,0
+DIS_00003,Typhoid Fever (Enteric Fever),SYM_00039,Watery Diarrhea,0.59,0
+DIS_00004,COVID-19 (SARS-CoV-2),SYM_00002,Low Grade Fever,0.95,1
+DIS_00004,COVID-19 (SARS-CoV-2),SYM_00016,Acute Dry Cough,0.83,0
+DIS_00004,COVID-19 (SARS-CoV-2),SYM_00009,Loss of Appetite,0.71,0
+DIS_00004,COVID-19 (SARS-CoV-2),SYM_00019,Shortness of Breath at Rest,0.59,0
+DIS_00005,Community-Acquired Pneumonia,SYM_00017,Productive Mucopurulent Cough,0.95,1
+DIS_00005,Community-Acquired Pneumonia,SYM_00001,High Grade Fever,0.83,0
+DIS_00005,Community-Acquired Pneumonia,SYM_00022,Pleuritic Chest Pain,0.71,0
+DIS_00005,Community-Acquired Pneumonia,SYM_00025,Rapid Shallow Respiration,0.59,0
+DIS_00006,Bronchial Asthma Flare-Up,SYM_00021,Expiratory Wheezing,0.95,1
+DIS_00006,Bronchial Asthma Flare-Up,SYM_00019,Shortness of Breath at Rest,0.83,0
+DIS_00006,Bronchial Asthma Flare-Up,SYM_00016,Acute Dry Cough,0.71,0
+DIS_00006,Bronchial Asthma Flare-Up,SYM_00022,Pleuritic Chest Pain,0.59,0
+DIS_00007,Acute Myocardial Infarction (Heart Attack),SYM_00026,Crushing Retrosternal Chest Pain,0.95,1
+DIS_00007,Acute Myocardial Infarction (Heart Attack),SYM_00008,Profuse Night Sweats,0.83,0
+DIS_00007,Acute Myocardial Infarction (Heart Attack),SYM_00030,Cold Clammy Extremities,0.71,0
+DIS_00007,Acute Myocardial Infarction (Heart Attack),SYM_00019,Shortness of Breath at Rest,0.59,0
+DIS_00008,Essential Hypertension,SYM_00045,Throbbing Hemicranial Headache,0.95,1
+DIS_00008,Essential Hypertension,SYM_00027,Heart Palpitations,0.83,0
+DIS_00008,Essential Hypertension,SYM_00032,Pulsatile Tinnitus,0.71,0
+DIS_00008,Essential Hypertension,SYM_00010,Generalized Malaise,0.59,0
+DIS_00009,Type 2 Diabetes Mellitus,SYM_00015,Extreme Thirst,0.95,1
+DIS_00009,Type 2 Diabetes Mellitus,SYM_00006,Unexplained Weight Loss,0.83,0
+DIS_00009,Type 2 Diabetes Mellitus,SYM_00005,Chronic Fatigue,0.71,0
+DIS_00009,Type 2 Diabetes Mellitus,SYM_00010,Generalized Malaise,0.59,0
+DIS_00010,Acute Ischemic Stroke,SYM_00048,Facial Droop & Asymmetry,0.95,1
+DIS_00010,Acute Ischemic Stroke,SYM_00049,Unilateral Arm or Leg Weakness,0.83,0
+DIS_00010,Acute Ischemic Stroke,SYM_00050,Slurred Speech / Aphasia,0.71,0
+DIS_00010,Acute Ischemic Stroke,SYM_00046,Thunderclap Headache,0.59,0
+DIS_00011,Gastroesophageal Reflux Disease (GERD),SYM_00034,Epigastric Burning Pain,0.95,1
+DIS_00011,Gastroesophageal Reflux Disease (GERD),SYM_00036,Persistent Nausea,0.83,0
+DIS_00011,Gastroesophageal Reflux Disease (GERD),SYM_00044,Difficulty Swallowing (Dysphagia),0.71,0
+DIS_00012,Chronic Viral Hepatitis B,SYM_00042,Jaundice (Yellow Sclera & Skin),0.95,1
+DIS_00012,Chronic Viral Hepatitis B,SYM_00009,Loss of Appetite,0.83,0
+DIS_00012,Chronic Viral Hepatitis B,SYM_00043,Abdominal Distension & Ascites,0.71,0
+DIS_00012,Chronic Viral Hepatitis B,SYM_00005,Chronic Fatigue,0.59,0
+DIS_00013,Rheumatoid Arthritis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00013,Rheumatoid Arthritis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00013,Rheumatoid Arthritis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00014,Chronic Kidney Disease (Stage 3-4),SYM_00029,Bilateral Ankle Swelling,0.95,1
+DIS_00014,Chronic Kidney Disease (Stage 3-4),SYM_00013,Generalized Edema,0.83,0
+DIS_00014,Chronic Kidney Disease (Stage 3-4),SYM_00005,Chronic Fatigue,0.71,0
+DIS_00014,Chronic Kidney Disease (Stage 3-4),SYM_00009,Loss of Appetite,0.59,0
+DIS_00015,Major Depressive Disorder,SYM_00005,Chronic Fatigue,0.95,1
+DIS_00015,Major Depressive Disorder,SYM_00009,Loss of Appetite,0.83,0
+DIS_00015,Major Depressive Disorder,SYM_00006,Unexplained Weight Loss,0.71,0
+DIS_00016,Aortic Valve Stenosis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00016,Aortic Valve Stenosis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00016,Aortic Valve Stenosis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00016,Aortic Valve Stenosis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00017,Dilated Cardiomyopathy,SYM_00010,Generalized Malaise,0.95,1
+DIS_00017,Dilated Cardiomyopathy,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00017,Dilated Cardiomyopathy,SYM_00002,Low Grade Fever,0.71,0
+DIS_00017,Dilated Cardiomyopathy,SYM_00009,Loss of Appetite,0.59,0
+DIS_00018,Hypertrophic Cardiomyopathy,SYM_00010,Generalized Malaise,0.95,1
+DIS_00018,Hypertrophic Cardiomyopathy,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00018,Hypertrophic Cardiomyopathy,SYM_00002,Low Grade Fever,0.71,0
+DIS_00018,Hypertrophic Cardiomyopathy,SYM_00009,Loss of Appetite,0.59,0
+DIS_00019,Infective Endocarditis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00019,Infective Endocarditis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00019,Infective Endocarditis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00019,Infective Endocarditis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00020,Atrial Fibrillation with Rapid Response,SYM_00010,Generalized Malaise,0.95,1
+DIS_00020,Atrial Fibrillation with Rapid Response,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00020,Atrial Fibrillation with Rapid Response,SYM_00002,Low Grade Fever,0.71,0
+DIS_00020,Atrial Fibrillation with Rapid Response,SYM_00009,Loss of Appetite,0.59,0
+DIS_00021,Ventricular Tachycardia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00021,Ventricular Tachycardia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00021,Ventricular Tachycardia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00021,Ventricular Tachycardia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00022,Supraventricular Tachycardia (SVT),SYM_00010,Generalized Malaise,0.95,1
+DIS_00022,Supraventricular Tachycardia (SVT),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00022,Supraventricular Tachycardia (SVT),SYM_00002,Low Grade Fever,0.71,0
+DIS_00022,Supraventricular Tachycardia (SVT),SYM_00009,Loss of Appetite,0.59,0
+DIS_00023,Pericarditis with Effusion,SYM_00010,Generalized Malaise,0.95,1
+DIS_00023,Pericarditis with Effusion,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00023,Pericarditis with Effusion,SYM_00002,Low Grade Fever,0.71,0
+DIS_00023,Pericarditis with Effusion,SYM_00009,Loss of Appetite,0.59,0
+DIS_00024,Cardiac Tamponade,SYM_00010,Generalized Malaise,0.95,1
+DIS_00024,Cardiac Tamponade,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00024,Cardiac Tamponade,SYM_00002,Low Grade Fever,0.71,0
+DIS_00024,Cardiac Tamponade,SYM_00009,Loss of Appetite,0.59,0
+DIS_00025,Coronary Microvascular Angina,SYM_00010,Generalized Malaise,0.95,1
+DIS_00025,Coronary Microvascular Angina,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00025,Coronary Microvascular Angina,SYM_00002,Low Grade Fever,0.71,0
+DIS_00025,Coronary Microvascular Angina,SYM_00009,Loss of Appetite,0.59,0
+DIS_00026,Prinzmetal Variant Angina,SYM_00010,Generalized Malaise,0.95,1
+DIS_00026,Prinzmetal Variant Angina,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00026,Prinzmetal Variant Angina,SYM_00002,Low Grade Fever,0.71,0
+DIS_00026,Prinzmetal Variant Angina,SYM_00009,Loss of Appetite,0.59,0
+DIS_00027,Thoracic Aortic Aneurysm,SYM_00010,Generalized Malaise,0.95,1
+DIS_00027,Thoracic Aortic Aneurysm,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00027,Thoracic Aortic Aneurysm,SYM_00002,Low Grade Fever,0.71,0
+DIS_00027,Thoracic Aortic Aneurysm,SYM_00009,Loss of Appetite,0.59,0
+DIS_00028,Abdominal Aortic Aneurysm,SYM_00010,Generalized Malaise,0.95,1
+DIS_00028,Abdominal Aortic Aneurysm,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00028,Abdominal Aortic Aneurysm,SYM_00002,Low Grade Fever,0.71,0
+DIS_00028,Abdominal Aortic Aneurysm,SYM_00009,Loss of Appetite,0.59,0
+DIS_00029,Deep Vein Thrombosis (DVT),SYM_00010,Generalized Malaise,0.95,1
+DIS_00029,Deep Vein Thrombosis (DVT),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00029,Deep Vein Thrombosis (DVT),SYM_00002,Low Grade Fever,0.71,0
+DIS_00029,Deep Vein Thrombosis (DVT),SYM_00009,Loss of Appetite,0.59,0
+DIS_00030,Pulmonary Embolism,SYM_00010,Generalized Malaise,0.95,1
+DIS_00030,Pulmonary Embolism,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00030,Pulmonary Embolism,SYM_00002,Low Grade Fever,0.71,0
+DIS_00030,Pulmonary Embolism,SYM_00009,Loss of Appetite,0.59,0
+DIS_00031,Peripheral Artery Occlusive Disease,SYM_00010,Generalized Malaise,0.95,1
+DIS_00031,Peripheral Artery Occlusive Disease,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00031,Peripheral Artery Occlusive Disease,SYM_00002,Low Grade Fever,0.71,0
+DIS_00031,Peripheral Artery Occlusive Disease,SYM_00009,Loss of Appetite,0.59,0
+DIS_00032,Raynaud Phenomenon,SYM_00010,Generalized Malaise,0.95,1
+DIS_00032,Raynaud Phenomenon,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00032,Raynaud Phenomenon,SYM_00002,Low Grade Fever,0.71,0
+DIS_00032,Raynaud Phenomenon,SYM_00009,Loss of Appetite,0.59,0
+DIS_00033,Varicose Veins with Stasis Dermatitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00033,Varicose Veins with Stasis Dermatitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00033,Varicose Veins with Stasis Dermatitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00033,Varicose Veins with Stasis Dermatitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00034,Postural Orthostatic Tachycardia Syndrome (POTS),SYM_00010,Generalized Malaise,0.95,1
+DIS_00034,Postural Orthostatic Tachycardia Syndrome (POTS),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00034,Postural Orthostatic Tachycardia Syndrome (POTS),SYM_00002,Low Grade Fever,0.71,0
+DIS_00034,Postural Orthostatic Tachycardia Syndrome (POTS),SYM_00009,Loss of Appetite,0.59,0
+DIS_00035,Bicuspid Aortic Valve Disease,SYM_00010,Generalized Malaise,0.95,1
+DIS_00035,Bicuspid Aortic Valve Disease,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00035,Bicuspid Aortic Valve Disease,SYM_00002,Low Grade Fever,0.71,0
+DIS_00035,Bicuspid Aortic Valve Disease,SYM_00009,Loss of Appetite,0.59,0
+DIS_00036,Mitral Valve Prolapse,SYM_00010,Generalized Malaise,0.95,1
+DIS_00036,Mitral Valve Prolapse,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00036,Mitral Valve Prolapse,SYM_00002,Low Grade Fever,0.71,0
+DIS_00036,Mitral Valve Prolapse,SYM_00009,Loss of Appetite,0.59,0
+DIS_00037,Tricuspid Regurgitation,SYM_00010,Generalized Malaise,0.95,1
+DIS_00037,Tricuspid Regurgitation,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00037,Tricuspid Regurgitation,SYM_00002,Low Grade Fever,0.71,0
+DIS_00037,Tricuspid Regurgitation,SYM_00009,Loss of Appetite,0.59,0
+DIS_00038,Arrhythmogenic Right Ventricular Dysplasia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00038,Arrhythmogenic Right Ventricular Dysplasia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00038,Arrhythmogenic Right Ventricular Dysplasia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00038,Arrhythmogenic Right Ventricular Dysplasia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00039,Sick Sinus Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00039,Sick Sinus Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00039,Sick Sinus Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00039,Sick Sinus Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00040,Heart Block (Third Degree),SYM_00010,Generalized Malaise,0.95,1
+DIS_00040,Heart Block (Third Degree),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00040,Heart Block (Third Degree),SYM_00002,Low Grade Fever,0.71,0
+DIS_00040,Heart Block (Third Degree),SYM_00009,Loss of Appetite,0.59,0
+DIS_00041,Takotsubo Cardiomyopathy (Broken Heart Syndrome),SYM_00010,Generalized Malaise,0.95,1
+DIS_00041,Takotsubo Cardiomyopathy (Broken Heart Syndrome),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00041,Takotsubo Cardiomyopathy (Broken Heart Syndrome),SYM_00002,Low Grade Fever,0.71,0
+DIS_00041,Takotsubo Cardiomyopathy (Broken Heart Syndrome),SYM_00009,Loss of Appetite,0.59,0
+DIS_00042,Cor Pulmonale,SYM_00010,Generalized Malaise,0.95,1
+DIS_00042,Cor Pulmonale,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00042,Cor Pulmonale,SYM_00002,Low Grade Fever,0.71,0
+DIS_00042,Cor Pulmonale,SYM_00009,Loss of Appetite,0.59,0
+DIS_00043,Hypertensive Urgency,SYM_00010,Generalized Malaise,0.95,1
+DIS_00043,Hypertensive Urgency,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00043,Hypertensive Urgency,SYM_00002,Low Grade Fever,0.71,0
+DIS_00043,Hypertensive Urgency,SYM_00009,Loss of Appetite,0.59,0
+DIS_00044,Renal Artery Stenosis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00044,Renal Artery Stenosis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00044,Renal Artery Stenosis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00044,Renal Artery Stenosis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00045,Malignant Hypertension,SYM_00010,Generalized Malaise,0.95,1
+DIS_00045,Malignant Hypertension,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00045,Malignant Hypertension,SYM_00002,Low Grade Fever,0.71,0
+DIS_00045,Malignant Hypertension,SYM_00009,Loss of Appetite,0.59,0
+DIS_00046,Chronic Obstructive Pulmonary Disease (COPD),SYM_00010,Generalized Malaise,0.95,1
+DIS_00046,Chronic Obstructive Pulmonary Disease (COPD),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00046,Chronic Obstructive Pulmonary Disease (COPD),SYM_00002,Low Grade Fever,0.71,0
+DIS_00046,Chronic Obstructive Pulmonary Disease (COPD),SYM_00009,Loss of Appetite,0.59,0
+DIS_00047,Idiopathic Pulmonary Fibrosis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00047,Idiopathic Pulmonary Fibrosis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00047,Idiopathic Pulmonary Fibrosis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00047,Idiopathic Pulmonary Fibrosis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00048,Bronchiectasis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00048,Bronchiectasis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00048,Bronchiectasis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00048,Bronchiectasis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00049,Pulmonary Emphysema,SYM_00010,Generalized Malaise,0.95,1
+DIS_00049,Pulmonary Emphysema,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00049,Pulmonary Emphysema,SYM_00002,Low Grade Fever,0.71,0
+DIS_00049,Pulmonary Emphysema,SYM_00009,Loss of Appetite,0.59,0
+DIS_00050,Chronic Bronchitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00050,Chronic Bronchitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00050,Chronic Bronchitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00050,Chronic Bronchitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00051,Hypersensitivity Pneumonitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00051,Hypersensitivity Pneumonitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00051,Hypersensitivity Pneumonitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00051,Hypersensitivity Pneumonitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00052,Sarcoidosis (Pulmonary),SYM_00010,Generalized Malaise,0.95,1
+DIS_00052,Sarcoidosis (Pulmonary),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00052,Sarcoidosis (Pulmonary),SYM_00002,Low Grade Fever,0.71,0
+DIS_00052,Sarcoidosis (Pulmonary),SYM_00009,Loss of Appetite,0.59,0
+DIS_00053,Pneumothorax (Spontaneous),SYM_00010,Generalized Malaise,0.95,1
+DIS_00053,Pneumothorax (Spontaneous),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00053,Pneumothorax (Spontaneous),SYM_00002,Low Grade Fever,0.71,0
+DIS_00053,Pneumothorax (Spontaneous),SYM_00009,Loss of Appetite,0.59,0
+DIS_00054,Pleural Effusion (Exudative),SYM_00010,Generalized Malaise,0.95,1
+DIS_00054,Pleural Effusion (Exudative),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00054,Pleural Effusion (Exudative),SYM_00002,Low Grade Fever,0.71,0
+DIS_00054,Pleural Effusion (Exudative),SYM_00009,Loss of Appetite,0.59,0
+DIS_00055,Aspiration Pneumonitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00055,Aspiration Pneumonitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00055,Aspiration Pneumonitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00055,Aspiration Pneumonitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00056,Legionnaires Disease (Pneumonia),SYM_00010,Generalized Malaise,0.95,1
+DIS_00056,Legionnaires Disease (Pneumonia),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00056,Legionnaires Disease (Pneumonia),SYM_00002,Low Grade Fever,0.71,0
+DIS_00056,Legionnaires Disease (Pneumonia),SYM_00009,Loss of Appetite,0.59,0
+DIS_00057,Mycoplasma Walking Pneumonia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00057,Mycoplasma Walking Pneumonia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00057,Mycoplasma Walking Pneumonia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00057,Mycoplasma Walking Pneumonia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00058,Asbestosis & Occupational Lung Disease,SYM_00010,Generalized Malaise,0.95,1
+DIS_00058,Asbestosis & Occupational Lung Disease,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00058,Asbestosis & Occupational Lung Disease,SYM_00002,Low Grade Fever,0.71,0
+DIS_00058,Asbestosis & Occupational Lung Disease,SYM_00009,Loss of Appetite,0.59,0
+DIS_00059,Silicosis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00059,Silicosis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00059,Silicosis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00059,Silicosis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00060,Sleep Apnea Syndrome (Obstructive),SYM_00010,Generalized Malaise,0.95,1
+DIS_00060,Sleep Apnea Syndrome (Obstructive),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00060,Sleep Apnea Syndrome (Obstructive),SYM_00002,Low Grade Fever,0.71,0
+DIS_00060,Sleep Apnea Syndrome (Obstructive),SYM_00009,Loss of Appetite,0.59,0
+DIS_00061,Central Sleep Apnea,SYM_00010,Generalized Malaise,0.95,1
+DIS_00061,Central Sleep Apnea,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00061,Central Sleep Apnea,SYM_00002,Low Grade Fever,0.71,0
+DIS_00061,Central Sleep Apnea,SYM_00009,Loss of Appetite,0.59,0
+DIS_00062,Pulmonary Alveolar Proteinosis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00062,Pulmonary Alveolar Proteinosis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00062,Pulmonary Alveolar Proteinosis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00062,Pulmonary Alveolar Proteinosis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00063,Cystic Fibrosis (Adult),SYM_00010,Generalized Malaise,0.95,1
+DIS_00063,Cystic Fibrosis (Adult),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00063,Cystic Fibrosis (Adult),SYM_00002,Low Grade Fever,0.71,0
+DIS_00063,Cystic Fibrosis (Adult),SYM_00009,Loss of Appetite,0.59,0
+DIS_00064,Acute Respiratory Distress Syndrome (ARDS),SYM_00010,Generalized Malaise,0.95,1
+DIS_00064,Acute Respiratory Distress Syndrome (ARDS),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00064,Acute Respiratory Distress Syndrome (ARDS),SYM_00002,Low Grade Fever,0.71,0
+DIS_00064,Acute Respiratory Distress Syndrome (ARDS),SYM_00009,Loss of Appetite,0.59,0
+DIS_00065,Tracheomalacia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00065,Tracheomalacia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00065,Tracheomalacia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00065,Tracheomalacia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00066,Bronchopulmonary Dysplasia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00066,Bronchopulmonary Dysplasia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00066,Bronchopulmonary Dysplasia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00066,Bronchopulmonary Dysplasia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00067,Laryngotracheobronchitis (Croup),SYM_00010,Generalized Malaise,0.95,1
+DIS_00067,Laryngotracheobronchitis (Croup),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00067,Laryngotracheobronchitis (Croup),SYM_00002,Low Grade Fever,0.71,0
+DIS_00067,Laryngotracheobronchitis (Croup),SYM_00009,Loss of Appetite,0.59,0
+DIS_00068,Pertussis (Whooping Cough),SYM_00010,Generalized Malaise,0.95,1
+DIS_00068,Pertussis (Whooping Cough),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00068,Pertussis (Whooping Cough),SYM_00002,Low Grade Fever,0.71,0
+DIS_00068,Pertussis (Whooping Cough),SYM_00009,Loss of Appetite,0.59,0
+DIS_00069,Bronchiolitis Obliterans,SYM_00010,Generalized Malaise,0.95,1
+DIS_00069,Bronchiolitis Obliterans,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00069,Bronchiolitis Obliterans,SYM_00002,Low Grade Fever,0.71,0
+DIS_00069,Bronchiolitis Obliterans,SYM_00009,Loss of Appetite,0.59,0
+DIS_00070,Churg-Strauss Eosinophilic Granulomatosis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00070,Churg-Strauss Eosinophilic Granulomatosis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00070,Churg-Strauss Eosinophilic Granulomatosis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00070,Churg-Strauss Eosinophilic Granulomatosis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00071,Goodpasture Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00071,Goodpasture Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00071,Goodpasture Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00071,Goodpasture Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00072,Vocal Cord Dysfunction,SYM_00010,Generalized Malaise,0.95,1
+DIS_00072,Vocal Cord Dysfunction,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00072,Vocal Cord Dysfunction,SYM_00002,Low Grade Fever,0.71,0
+DIS_00072,Vocal Cord Dysfunction,SYM_00009,Loss of Appetite,0.59,0
+DIS_00073,Chronic Cough Hypersensitivity,SYM_00010,Generalized Malaise,0.95,1
+DIS_00073,Chronic Cough Hypersensitivity,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00073,Chronic Cough Hypersensitivity,SYM_00002,Low Grade Fever,0.71,0
+DIS_00073,Chronic Cough Hypersensitivity,SYM_00009,Loss of Appetite,0.59,0
+DIS_00074,Primary Ciliary Dyskinesia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00074,Primary Ciliary Dyskinesia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00074,Primary Ciliary Dyskinesia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00074,Primary Ciliary Dyskinesia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00075,Alveolar Hemorrhage Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00075,Alveolar Hemorrhage Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00075,Alveolar Hemorrhage Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00075,Alveolar Hemorrhage Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00076,Ulcerative Colitis (Pancolitis),SYM_00010,Generalized Malaise,0.95,1
+DIS_00076,Ulcerative Colitis (Pancolitis),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00076,Ulcerative Colitis (Pancolitis),SYM_00002,Low Grade Fever,0.71,0
+DIS_00076,Ulcerative Colitis (Pancolitis),SYM_00009,Loss of Appetite,0.59,0
+DIS_00077,Crohn Disease (Terminal Ileitis),SYM_00010,Generalized Malaise,0.95,1
+DIS_00077,Crohn Disease (Terminal Ileitis),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00077,Crohn Disease (Terminal Ileitis),SYM_00002,Low Grade Fever,0.71,0
+DIS_00077,Crohn Disease (Terminal Ileitis),SYM_00009,Loss of Appetite,0.59,0
+DIS_00078,Celiac Disease (Gluten Enteropathy),SYM_00010,Generalized Malaise,0.95,1
+DIS_00078,Celiac Disease (Gluten Enteropathy),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00078,Celiac Disease (Gluten Enteropathy),SYM_00002,Low Grade Fever,0.71,0
+DIS_00078,Celiac Disease (Gluten Enteropathy),SYM_00009,Loss of Appetite,0.59,0
+DIS_00079,Irritable Bowel Syndrome (IBS-D),SYM_00010,Generalized Malaise,0.95,1
+DIS_00079,Irritable Bowel Syndrome (IBS-D),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00079,Irritable Bowel Syndrome (IBS-D),SYM_00002,Low Grade Fever,0.71,0
+DIS_00079,Irritable Bowel Syndrome (IBS-D),SYM_00009,Loss of Appetite,0.59,0
+DIS_00080,Irritable Bowel Syndrome (IBS-C),SYM_00010,Generalized Malaise,0.95,1
+DIS_00080,Irritable Bowel Syndrome (IBS-C),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00080,Irritable Bowel Syndrome (IBS-C),SYM_00002,Low Grade Fever,0.71,0
+DIS_00080,Irritable Bowel Syndrome (IBS-C),SYM_00009,Loss of Appetite,0.59,0
+DIS_00081,Acute Pancreatitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00081,Acute Pancreatitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00081,Acute Pancreatitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00081,Acute Pancreatitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00082,Chronic Calcific Pancreatitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00082,Chronic Calcific Pancreatitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00082,Chronic Calcific Pancreatitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00082,Chronic Calcific Pancreatitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00083,Non-Alcoholic Fatty Liver Disease (NAFLD),SYM_00010,Generalized Malaise,0.95,1
+DIS_00083,Non-Alcoholic Fatty Liver Disease (NAFLD),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00083,Non-Alcoholic Fatty Liver Disease (NAFLD),SYM_00002,Low Grade Fever,0.71,0
+DIS_00083,Non-Alcoholic Fatty Liver Disease (NAFLD),SYM_00009,Loss of Appetite,0.59,0
+DIS_00084,Non-Alcoholic Steatohepatitis (NASH),SYM_00010,Generalized Malaise,0.95,1
+DIS_00084,Non-Alcoholic Steatohepatitis (NASH),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00084,Non-Alcoholic Steatohepatitis (NASH),SYM_00002,Low Grade Fever,0.71,0
+DIS_00084,Non-Alcoholic Steatohepatitis (NASH),SYM_00009,Loss of Appetite,0.59,0
+DIS_00085,Alcoholic Cirrhosis of Liver,SYM_00010,Generalized Malaise,0.95,1
+DIS_00085,Alcoholic Cirrhosis of Liver,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00085,Alcoholic Cirrhosis of Liver,SYM_00002,Low Grade Fever,0.71,0
+DIS_00085,Alcoholic Cirrhosis of Liver,SYM_00009,Loss of Appetite,0.59,0
+DIS_00086,Primary Biliary Cholangitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00086,Primary Biliary Cholangitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00086,Primary Biliary Cholangitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00086,Primary Biliary Cholangitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00087,Primary Sclerosing Cholangitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00087,Primary Sclerosing Cholangitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00087,Primary Sclerosing Cholangitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00087,Primary Sclerosing Cholangitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00088,Autoimmune Hepatitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00088,Autoimmune Hepatitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00088,Autoimmune Hepatitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00088,Autoimmune Hepatitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00089,Wilson Disease (Hepatolenticular),SYM_00010,Generalized Malaise,0.95,1
+DIS_00089,Wilson Disease (Hepatolenticular),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00089,Wilson Disease (Hepatolenticular),SYM_00002,Low Grade Fever,0.71,0
+DIS_00089,Wilson Disease (Hepatolenticular),SYM_00009,Loss of Appetite,0.59,0
+DIS_00090,Hemochromatosis (Iron Overload),SYM_00010,Generalized Malaise,0.95,1
+DIS_00090,Hemochromatosis (Iron Overload),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00090,Hemochromatosis (Iron Overload),SYM_00002,Low Grade Fever,0.71,0
+DIS_00090,Hemochromatosis (Iron Overload),SYM_00009,Loss of Appetite,0.59,0
+DIS_00091,Gastric Ulcer (H. Pylori),SYM_00010,Generalized Malaise,0.95,1
+DIS_00091,Gastric Ulcer (H. Pylori),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00091,Gastric Ulcer (H. Pylori),SYM_00002,Low Grade Fever,0.71,0
+DIS_00091,Gastric Ulcer (H. Pylori),SYM_00009,Loss of Appetite,0.59,0
+DIS_00092,Duodenal Ulcer,SYM_00010,Generalized Malaise,0.95,1
+DIS_00092,Duodenal Ulcer,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00092,Duodenal Ulcer,SYM_00002,Low Grade Fever,0.71,0
+DIS_00092,Duodenal Ulcer,SYM_00009,Loss of Appetite,0.59,0
+DIS_00093,Zollinger-Ellison Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00093,Zollinger-Ellison Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00093,Zollinger-Ellison Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00093,Zollinger-Ellison Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00094,Gastroparesis (Diabetic),SYM_00010,Generalized Malaise,0.95,1
+DIS_00094,Gastroparesis (Diabetic),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00094,Gastroparesis (Diabetic),SYM_00002,Low Grade Fever,0.71,0
+DIS_00094,Gastroparesis (Diabetic),SYM_00009,Loss of Appetite,0.59,0
+DIS_00095,Short Bowel Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00095,Short Bowel Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00095,Short Bowel Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00095,Short Bowel Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00096,Diverticulitis (Acute),SYM_00010,Generalized Malaise,0.95,1
+DIS_00096,Diverticulitis (Acute),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00096,Diverticulitis (Acute),SYM_00002,Low Grade Fever,0.71,0
+DIS_00096,Diverticulitis (Acute),SYM_00009,Loss of Appetite,0.59,0
+DIS_00097,Microscopic Colitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00097,Microscopic Colitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00097,Microscopic Colitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00097,Microscopic Colitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00098,Clostridioides Difficile Colitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00098,Clostridioides Difficile Colitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00098,Clostridioides Difficile Colitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00098,Clostridioides Difficile Colitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00099,Small Intestinal Bacterial Overgrowth (SIBO),SYM_00010,Generalized Malaise,0.95,1
+DIS_00099,Small Intestinal Bacterial Overgrowth (SIBO),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00099,Small Intestinal Bacterial Overgrowth (SIBO),SYM_00002,Low Grade Fever,0.71,0
+DIS_00099,Small Intestinal Bacterial Overgrowth (SIBO),SYM_00009,Loss of Appetite,0.59,0
+DIS_00100,Eosinophilic Esophagitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00100,Eosinophilic Esophagitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00100,Eosinophilic Esophagitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00100,Eosinophilic Esophagitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00101,Barrett Esophagus,SYM_00010,Generalized Malaise,0.95,1
+DIS_00101,Barrett Esophagus,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00101,Barrett Esophagus,SYM_00002,Low Grade Fever,0.71,0
+DIS_00101,Barrett Esophagus,SYM_00009,Loss of Appetite,0.59,0
+DIS_00102,Achalasia Cardia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00102,Achalasia Cardia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00102,Achalasia Cardia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00102,Achalasia Cardia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00103,Mallory-Weiss Tear,SYM_00010,Generalized Malaise,0.95,1
+DIS_00103,Mallory-Weiss Tear,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00103,Mallory-Weiss Tear,SYM_00002,Low Grade Fever,0.71,0
+DIS_00103,Mallory-Weiss Tear,SYM_00009,Loss of Appetite,0.59,0
+DIS_00104,Cholelithiasis (Gallstones),SYM_00010,Generalized Malaise,0.95,1
+DIS_00104,Cholelithiasis (Gallstones),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00104,Cholelithiasis (Gallstones),SYM_00002,Low Grade Fever,0.71,0
+DIS_00104,Cholelithiasis (Gallstones),SYM_00009,Loss of Appetite,0.59,0
+DIS_00105,Acute Choledocholithiasis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00105,Acute Choledocholithiasis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00105,Acute Choledocholithiasis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00105,Acute Choledocholithiasis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00106,Multiple Sclerosis (Relapsing-Remitting),SYM_00010,Generalized Malaise,0.95,1
+DIS_00106,Multiple Sclerosis (Relapsing-Remitting),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00106,Multiple Sclerosis (Relapsing-Remitting),SYM_00002,Low Grade Fever,0.71,0
+DIS_00106,Multiple Sclerosis (Relapsing-Remitting),SYM_00009,Loss of Appetite,0.59,0
+DIS_00107,Parkinson Disease (Idiopathic),SYM_00010,Generalized Malaise,0.95,1
+DIS_00107,Parkinson Disease (Idiopathic),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00107,Parkinson Disease (Idiopathic),SYM_00002,Low Grade Fever,0.71,0
+DIS_00107,Parkinson Disease (Idiopathic),SYM_00009,Loss of Appetite,0.59,0
+DIS_00108,Amyotrophic Lateral Sclerosis (ALS),SYM_00010,Generalized Malaise,0.95,1
+DIS_00108,Amyotrophic Lateral Sclerosis (ALS),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00108,Amyotrophic Lateral Sclerosis (ALS),SYM_00002,Low Grade Fever,0.71,0
+DIS_00108,Amyotrophic Lateral Sclerosis (ALS),SYM_00009,Loss of Appetite,0.59,0
+DIS_00109,Guillain-Barré Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00109,Guillain-Barré Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00109,Guillain-Barré Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00109,Guillain-Barré Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00110,Myasthenia Gravis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00110,Myasthenia Gravis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00110,Myasthenia Gravis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00110,Myasthenia Gravis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00111,Alzheimer Dementia (Early Onset),SYM_00010,Generalized Malaise,0.95,1
+DIS_00111,Alzheimer Dementia (Early Onset),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00111,Alzheimer Dementia (Early Onset),SYM_00002,Low Grade Fever,0.71,0
+DIS_00111,Alzheimer Dementia (Early Onset),SYM_00009,Loss of Appetite,0.59,0
+DIS_00112,Vascular Dementia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00112,Vascular Dementia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00112,Vascular Dementia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00112,Vascular Dementia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00113,Frontotemporal Lobar Degeneration,SYM_00010,Generalized Malaise,0.95,1
+DIS_00113,Frontotemporal Lobar Degeneration,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00113,Frontotemporal Lobar Degeneration,SYM_00002,Low Grade Fever,0.71,0
+DIS_00113,Frontotemporal Lobar Degeneration,SYM_00009,Loss of Appetite,0.59,0
+DIS_00114,Lewy Body Dementia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00114,Lewy Body Dementia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00114,Lewy Body Dementia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00114,Lewy Body Dementia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00115,Huntington Chorea,SYM_00010,Generalized Malaise,0.95,1
+DIS_00115,Huntington Chorea,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00115,Huntington Chorea,SYM_00002,Low Grade Fever,0.71,0
+DIS_00115,Huntington Chorea,SYM_00009,Loss of Appetite,0.59,0
+DIS_00116,Normal Pressure Hydrocephalus,SYM_00010,Generalized Malaise,0.95,1
+DIS_00116,Normal Pressure Hydrocephalus,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00116,Normal Pressure Hydrocephalus,SYM_00002,Low Grade Fever,0.71,0
+DIS_00116,Normal Pressure Hydrocephalus,SYM_00009,Loss of Appetite,0.59,0
+DIS_00117,Trigeminal Neuralgia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00117,Trigeminal Neuralgia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00117,Trigeminal Neuralgia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00117,Trigeminal Neuralgia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00118,Bell Palsy (Idiopathic Facial Paresis),SYM_00010,Generalized Malaise,0.95,1
+DIS_00118,Bell Palsy (Idiopathic Facial Paresis),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00118,Bell Palsy (Idiopathic Facial Paresis),SYM_00002,Low Grade Fever,0.71,0
+DIS_00118,Bell Palsy (Idiopathic Facial Paresis),SYM_00009,Loss of Appetite,0.59,0
+DIS_00119,Cluster Headache Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00119,Cluster Headache Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00119,Cluster Headache Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00119,Cluster Headache Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00120,Tension-Type Headache (Chronic),SYM_00010,Generalized Malaise,0.95,1
+DIS_00120,Tension-Type Headache (Chronic),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00120,Tension-Type Headache (Chronic),SYM_00002,Low Grade Fever,0.71,0
+DIS_00120,Tension-Type Headache (Chronic),SYM_00009,Loss of Appetite,0.59,0
+DIS_00121,Temporal Arteritis (Giant Cell),SYM_00010,Generalized Malaise,0.95,1
+DIS_00121,Temporal Arteritis (Giant Cell),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00121,Temporal Arteritis (Giant Cell),SYM_00002,Low Grade Fever,0.71,0
+DIS_00121,Temporal Arteritis (Giant Cell),SYM_00009,Loss of Appetite,0.59,0
+DIS_00122,Subarachnoid Hemorrhage,SYM_00010,Generalized Malaise,0.95,1
+DIS_00122,Subarachnoid Hemorrhage,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00122,Subarachnoid Hemorrhage,SYM_00002,Low Grade Fever,0.71,0
+DIS_00122,Subarachnoid Hemorrhage,SYM_00009,Loss of Appetite,0.59,0
+DIS_00123,Intracerebral Hemorrhage,SYM_00010,Generalized Malaise,0.95,1
+DIS_00123,Intracerebral Hemorrhage,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00123,Intracerebral Hemorrhage,SYM_00002,Low Grade Fever,0.71,0
+DIS_00123,Intracerebral Hemorrhage,SYM_00009,Loss of Appetite,0.59,0
+DIS_00124,Transient Ischemic Attack (TIA),SYM_00010,Generalized Malaise,0.95,1
+DIS_00124,Transient Ischemic Attack (TIA),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00124,Transient Ischemic Attack (TIA),SYM_00002,Low Grade Fever,0.71,0
+DIS_00124,Transient Ischemic Attack (TIA),SYM_00009,Loss of Appetite,0.59,0
+DIS_00125,Benign Paroxysmal Positional Vertigo (BPPV),SYM_00010,Generalized Malaise,0.95,1
+DIS_00125,Benign Paroxysmal Positional Vertigo (BPPV),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00125,Benign Paroxysmal Positional Vertigo (BPPV),SYM_00002,Low Grade Fever,0.71,0
+DIS_00125,Benign Paroxysmal Positional Vertigo (BPPV),SYM_00009,Loss of Appetite,0.59,0
+DIS_00126,Meniere Disease,SYM_00010,Generalized Malaise,0.95,1
+DIS_00126,Meniere Disease,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00126,Meniere Disease,SYM_00002,Low Grade Fever,0.71,0
+DIS_00126,Meniere Disease,SYM_00009,Loss of Appetite,0.59,0
+DIS_00127,Vestibular Neuritis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00127,Vestibular Neuritis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00127,Vestibular Neuritis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00127,Vestibular Neuritis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00128,Cervical Radiculopathy,SYM_00010,Generalized Malaise,0.95,1
+DIS_00128,Cervical Radiculopathy,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00128,Cervical Radiculopathy,SYM_00002,Low Grade Fever,0.71,0
+DIS_00128,Cervical Radiculopathy,SYM_00009,Loss of Appetite,0.59,0
+DIS_00129,Carpal Tunnel Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00129,Carpal Tunnel Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00129,Carpal Tunnel Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00129,Carpal Tunnel Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00130,Diabetic Autonomic Neuropathy,SYM_00010,Generalized Malaise,0.95,1
+DIS_00130,Diabetic Autonomic Neuropathy,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00130,Diabetic Autonomic Neuropathy,SYM_00002,Low Grade Fever,0.71,0
+DIS_00130,Diabetic Autonomic Neuropathy,SYM_00009,Loss of Appetite,0.59,0
+DIS_00131,Complex Regional Pain Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00131,Complex Regional Pain Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00131,Complex Regional Pain Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00131,Complex Regional Pain Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00132,Epilepsy (Temporal Lobe),SYM_00010,Generalized Malaise,0.95,1
+DIS_00132,Epilepsy (Temporal Lobe),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00132,Epilepsy (Temporal Lobe),SYM_00002,Low Grade Fever,0.71,0
+DIS_00132,Epilepsy (Temporal Lobe),SYM_00009,Loss of Appetite,0.59,0
+DIS_00133,Epilepsy (Juvenile Myoclonic),SYM_00010,Generalized Malaise,0.95,1
+DIS_00133,Epilepsy (Juvenile Myoclonic),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00133,Epilepsy (Juvenile Myoclonic),SYM_00002,Low Grade Fever,0.71,0
+DIS_00133,Epilepsy (Juvenile Myoclonic),SYM_00009,Loss of Appetite,0.59,0
+DIS_00134,Spinocerebellar Ataxia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00134,Spinocerebellar Ataxia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00134,Spinocerebellar Ataxia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00134,Spinocerebellar Ataxia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00135,Restless Legs Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00135,Restless Legs Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00135,Restless Legs Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00135,Restless Legs Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00136,Hashimoto Autoimmune Thyroiditis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00136,Hashimoto Autoimmune Thyroiditis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00136,Hashimoto Autoimmune Thyroiditis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00136,Hashimoto Autoimmune Thyroiditis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00137,Graves Disease (Hyperthyroidism),SYM_00010,Generalized Malaise,0.95,1
+DIS_00137,Graves Disease (Hyperthyroidism),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00137,Graves Disease (Hyperthyroidism),SYM_00002,Low Grade Fever,0.71,0
+DIS_00137,Graves Disease (Hyperthyroidism),SYM_00009,Loss of Appetite,0.59,0
+DIS_00138,Subacute De Quervain Thyroiditis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00138,Subacute De Quervain Thyroiditis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00138,Subacute De Quervain Thyroiditis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00138,Subacute De Quervain Thyroiditis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00139,Thyroid Nodule (Toxic Adenoma),SYM_00010,Generalized Malaise,0.95,1
+DIS_00139,Thyroid Nodule (Toxic Adenoma),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00139,Thyroid Nodule (Toxic Adenoma),SYM_00002,Low Grade Fever,0.71,0
+DIS_00139,Thyroid Nodule (Toxic Adenoma),SYM_00009,Loss of Appetite,0.59,0
+DIS_00140,Primary Adrenal Insufficiency (Addison),SYM_00010,Generalized Malaise,0.95,1
+DIS_00140,Primary Adrenal Insufficiency (Addison),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00140,Primary Adrenal Insufficiency (Addison),SYM_00002,Low Grade Fever,0.71,0
+DIS_00140,Primary Adrenal Insufficiency (Addison),SYM_00009,Loss of Appetite,0.59,0
+DIS_00141,Cushing Syndrome (Hypercortisolemia),SYM_00010,Generalized Malaise,0.95,1
+DIS_00141,Cushing Syndrome (Hypercortisolemia),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00141,Cushing Syndrome (Hypercortisolemia),SYM_00002,Low Grade Fever,0.71,0
+DIS_00141,Cushing Syndrome (Hypercortisolemia),SYM_00009,Loss of Appetite,0.59,0
+DIS_00142,Primary Hyperaldosteronism (Conn),SYM_00010,Generalized Malaise,0.95,1
+DIS_00142,Primary Hyperaldosteronism (Conn),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00142,Primary Hyperaldosteronism (Conn),SYM_00002,Low Grade Fever,0.71,0
+DIS_00142,Primary Hyperaldosteronism (Conn),SYM_00009,Loss of Appetite,0.59,0
+DIS_00143,Pheochromocytoma (Adrenal),SYM_00010,Generalized Malaise,0.95,1
+DIS_00143,Pheochromocytoma (Adrenal),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00143,Pheochromocytoma (Adrenal),SYM_00002,Low Grade Fever,0.71,0
+DIS_00143,Pheochromocytoma (Adrenal),SYM_00009,Loss of Appetite,0.59,0
+DIS_00144,Primary Hyperparathyroidism,SYM_00010,Generalized Malaise,0.95,1
+DIS_00144,Primary Hyperparathyroidism,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00144,Primary Hyperparathyroidism,SYM_00002,Low Grade Fever,0.71,0
+DIS_00144,Primary Hyperparathyroidism,SYM_00009,Loss of Appetite,0.59,0
+DIS_00145,Hypoparathyroidism,SYM_00010,Generalized Malaise,0.95,1
+DIS_00145,Hypoparathyroidism,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00145,Hypoparathyroidism,SYM_00002,Low Grade Fever,0.71,0
+DIS_00145,Hypoparathyroidism,SYM_00009,Loss of Appetite,0.59,0
+DIS_00146,Pituitary Prolactinoma,SYM_00010,Generalized Malaise,0.95,1
+DIS_00146,Pituitary Prolactinoma,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00146,Pituitary Prolactinoma,SYM_00002,Low Grade Fever,0.71,0
+DIS_00146,Pituitary Prolactinoma,SYM_00009,Loss of Appetite,0.59,0
+DIS_00147,Acromegaly (Growth Hormone Excess),SYM_00010,Generalized Malaise,0.95,1
+DIS_00147,Acromegaly (Growth Hormone Excess),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00147,Acromegaly (Growth Hormone Excess),SYM_00002,Low Grade Fever,0.71,0
+DIS_00147,Acromegaly (Growth Hormone Excess),SYM_00009,Loss of Appetite,0.59,0
+DIS_00148,Diabetes Insipidus (Central),SYM_00010,Generalized Malaise,0.95,1
+DIS_00148,Diabetes Insipidus (Central),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00148,Diabetes Insipidus (Central),SYM_00002,Low Grade Fever,0.71,0
+DIS_00148,Diabetes Insipidus (Central),SYM_00009,Loss of Appetite,0.59,0
+DIS_00149,Diabetes Insipidus (Nephrogenic),SYM_00010,Generalized Malaise,0.95,1
+DIS_00149,Diabetes Insipidus (Nephrogenic),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00149,Diabetes Insipidus (Nephrogenic),SYM_00002,Low Grade Fever,0.71,0
+DIS_00149,Diabetes Insipidus (Nephrogenic),SYM_00009,Loss of Appetite,0.59,0
+DIS_00150,Polycystic Ovary Syndrome (PCOS),SYM_00010,Generalized Malaise,0.95,1
+DIS_00150,Polycystic Ovary Syndrome (PCOS),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00150,Polycystic Ovary Syndrome (PCOS),SYM_00002,Low Grade Fever,0.71,0
+DIS_00150,Polycystic Ovary Syndrome (PCOS),SYM_00009,Loss of Appetite,0.59,0
+DIS_00151,Hypogonadism (Male),SYM_00010,Generalized Malaise,0.95,1
+DIS_00151,Hypogonadism (Male),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00151,Hypogonadism (Male),SYM_00002,Low Grade Fever,0.71,0
+DIS_00151,Hypogonadism (Male),SYM_00009,Loss of Appetite,0.59,0
+DIS_00152,Metabolic Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00152,Metabolic Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00152,Metabolic Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00152,Metabolic Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00153,Severe Hypertriglyceridemia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00153,Severe Hypertriglyceridemia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00153,Severe Hypertriglyceridemia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00153,Severe Hypertriglyceridemia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00154,Familial Hypercholesterolemia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00154,Familial Hypercholesterolemia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00154,Familial Hypercholesterolemia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00154,Familial Hypercholesterolemia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00155,Gouty Arthritis (Hyperuricemia),SYM_00010,Generalized Malaise,0.95,1
+DIS_00155,Gouty Arthritis (Hyperuricemia),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00155,Gouty Arthritis (Hyperuricemia),SYM_00002,Low Grade Fever,0.71,0
+DIS_00155,Gouty Arthritis (Hyperuricemia),SYM_00009,Loss of Appetite,0.59,0
+DIS_00156,Pseudogout (CPPD),SYM_00010,Generalized Malaise,0.95,1
+DIS_00156,Pseudogout (CPPD),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00156,Pseudogout (CPPD),SYM_00002,Low Grade Fever,0.71,0
+DIS_00156,Pseudogout (CPPD),SYM_00009,Loss of Appetite,0.59,0
+DIS_00157,Osteopenia & Osteoporosis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00157,Osteopenia & Osteoporosis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00157,Osteopenia & Osteoporosis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00157,Osteopenia & Osteoporosis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00158,Vitamin D Deficiency Osteomalacia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00158,Vitamin D Deficiency Osteomalacia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00158,Vitamin D Deficiency Osteomalacia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00158,Vitamin D Deficiency Osteomalacia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00159,Adrenal Fatigue Axis Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00159,Adrenal Fatigue Axis Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00159,Adrenal Fatigue Axis Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00159,Adrenal Fatigue Axis Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00160,Autoimmune Polyglandular Syndrome Type 1,SYM_00010,Generalized Malaise,0.95,1
+DIS_00160,Autoimmune Polyglandular Syndrome Type 1,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00160,Autoimmune Polyglandular Syndrome Type 1,SYM_00002,Low Grade Fever,0.71,0
+DIS_00160,Autoimmune Polyglandular Syndrome Type 1,SYM_00009,Loss of Appetite,0.59,0
+DIS_00161,Autoimmune Polyglandular Syndrome Type 2,SYM_00010,Generalized Malaise,0.95,1
+DIS_00161,Autoimmune Polyglandular Syndrome Type 2,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00161,Autoimmune Polyglandular Syndrome Type 2,SYM_00002,Low Grade Fever,0.71,0
+DIS_00161,Autoimmune Polyglandular Syndrome Type 2,SYM_00009,Loss of Appetite,0.59,0
+DIS_00162,Multiple Endocrine Neoplasia Type 1,SYM_00010,Generalized Malaise,0.95,1
+DIS_00162,Multiple Endocrine Neoplasia Type 1,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00162,Multiple Endocrine Neoplasia Type 1,SYM_00002,Low Grade Fever,0.71,0
+DIS_00162,Multiple Endocrine Neoplasia Type 1,SYM_00009,Loss of Appetite,0.59,0
+DIS_00163,Multiple Endocrine Neoplasia Type 2,SYM_00010,Generalized Malaise,0.95,1
+DIS_00163,Multiple Endocrine Neoplasia Type 2,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00163,Multiple Endocrine Neoplasia Type 2,SYM_00002,Low Grade Fever,0.71,0
+DIS_00163,Multiple Endocrine Neoplasia Type 2,SYM_00009,Loss of Appetite,0.59,0
+DIS_00164,Hypothalamic Amenorrhea,SYM_00010,Generalized Malaise,0.95,1
+DIS_00164,Hypothalamic Amenorrhea,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00164,Hypothalamic Amenorrhea,SYM_00002,Low Grade Fever,0.71,0
+DIS_00164,Hypothalamic Amenorrhea,SYM_00009,Loss of Appetite,0.59,0
+DIS_00165,Late-Onset Congenital Adrenal Hyperplasia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00165,Late-Onset Congenital Adrenal Hyperplasia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00165,Late-Onset Congenital Adrenal Hyperplasia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00165,Late-Onset Congenital Adrenal Hyperplasia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00166,Influenza A (H1N1 / H3N2),SYM_00010,Generalized Malaise,0.95,1
+DIS_00166,Influenza A (H1N1 / H3N2),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00166,Influenza A (H1N1 / H3N2),SYM_00002,Low Grade Fever,0.71,0
+DIS_00166,Influenza A (H1N1 / H3N2),SYM_00009,Loss of Appetite,0.59,0
+DIS_00167,Influenza B,SYM_00010,Generalized Malaise,0.95,1
+DIS_00167,Influenza B,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00167,Influenza B,SYM_00002,Low Grade Fever,0.71,0
+DIS_00167,Influenza B,SYM_00009,Loss of Appetite,0.59,0
+DIS_00168,Respiratory Syncytial Virus (RSV),SYM_00010,Generalized Malaise,0.95,1
+DIS_00168,Respiratory Syncytial Virus (RSV),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00168,Respiratory Syncytial Virus (RSV),SYM_00002,Low Grade Fever,0.71,0
+DIS_00168,Respiratory Syncytial Virus (RSV),SYM_00009,Loss of Appetite,0.59,0
+DIS_00169,Epstein-Barr Virus Mononucleosis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00169,Epstein-Barr Virus Mononucleosis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00169,Epstein-Barr Virus Mononucleosis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00169,Epstein-Barr Virus Mononucleosis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00170,Cytomegalovirus Infection (CMV),SYM_00010,Generalized Malaise,0.95,1
+DIS_00170,Cytomegalovirus Infection (CMV),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00170,Cytomegalovirus Infection (CMV),SYM_00002,Low Grade Fever,0.71,0
+DIS_00170,Cytomegalovirus Infection (CMV),SYM_00009,Loss of Appetite,0.59,0
+DIS_00171,Varicella Zoster (Chickenpox),SYM_00010,Generalized Malaise,0.95,1
+DIS_00171,Varicella Zoster (Chickenpox),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00171,Varicella Zoster (Chickenpox),SYM_00002,Low Grade Fever,0.71,0
+DIS_00171,Varicella Zoster (Chickenpox),SYM_00009,Loss of Appetite,0.59,0
+DIS_00172,Herpes Zoster (Shingles),SYM_00010,Generalized Malaise,0.95,1
+DIS_00172,Herpes Zoster (Shingles),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00172,Herpes Zoster (Shingles),SYM_00002,Low Grade Fever,0.71,0
+DIS_00172,Herpes Zoster (Shingles),SYM_00009,Loss of Appetite,0.59,0
+DIS_00173,Herpes Simplex Virus Type 1,SYM_00010,Generalized Malaise,0.95,1
+DIS_00173,Herpes Simplex Virus Type 1,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00173,Herpes Simplex Virus Type 1,SYM_00002,Low Grade Fever,0.71,0
+DIS_00173,Herpes Simplex Virus Type 1,SYM_00009,Loss of Appetite,0.59,0
+DIS_00174,Herpes Simplex Virus Type 2,SYM_00010,Generalized Malaise,0.95,1
+DIS_00174,Herpes Simplex Virus Type 2,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00174,Herpes Simplex Virus Type 2,SYM_00002,Low Grade Fever,0.71,0
+DIS_00174,Herpes Simplex Virus Type 2,SYM_00009,Loss of Appetite,0.59,0
+DIS_00175,Human Immunodeficiency Virus (HIV/AIDS),SYM_00010,Generalized Malaise,0.95,1
+DIS_00175,Human Immunodeficiency Virus (HIV/AIDS),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00175,Human Immunodeficiency Virus (HIV/AIDS),SYM_00002,Low Grade Fever,0.71,0
+DIS_00175,Human Immunodeficiency Virus (HIV/AIDS),SYM_00009,Loss of Appetite,0.59,0
+DIS_00176,Hepatitis A Infection,SYM_00010,Generalized Malaise,0.95,1
+DIS_00176,Hepatitis A Infection,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00176,Hepatitis A Infection,SYM_00002,Low Grade Fever,0.71,0
+DIS_00176,Hepatitis A Infection,SYM_00009,Loss of Appetite,0.59,0
+DIS_00177,Hepatitis C Infection,SYM_00010,Generalized Malaise,0.95,1
+DIS_00177,Hepatitis C Infection,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00177,Hepatitis C Infection,SYM_00002,Low Grade Fever,0.71,0
+DIS_00177,Hepatitis C Infection,SYM_00009,Loss of Appetite,0.59,0
+DIS_00178,Hepatitis E Infection,SYM_00010,Generalized Malaise,0.95,1
+DIS_00178,Hepatitis E Infection,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00178,Hepatitis E Infection,SYM_00002,Low Grade Fever,0.71,0
+DIS_00178,Hepatitis E Infection,SYM_00009,Loss of Appetite,0.59,0
+DIS_00179,Rabies Encephalitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00179,Rabies Encephalitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00179,Rabies Encephalitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00179,Rabies Encephalitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00180,Lyme Disease (Borreliosis),SYM_00010,Generalized Malaise,0.95,1
+DIS_00180,Lyme Disease (Borreliosis),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00180,Lyme Disease (Borreliosis),SYM_00002,Low Grade Fever,0.71,0
+DIS_00180,Lyme Disease (Borreliosis),SYM_00009,Loss of Appetite,0.59,0
+DIS_00181,Rocky Mountain Spotted Fever,SYM_00010,Generalized Malaise,0.95,1
+DIS_00181,Rocky Mountain Spotted Fever,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00181,Rocky Mountain Spotted Fever,SYM_00002,Low Grade Fever,0.71,0
+DIS_00181,Rocky Mountain Spotted Fever,SYM_00009,Loss of Appetite,0.59,0
+DIS_00182,Zika Virus Fever,SYM_00010,Generalized Malaise,0.95,1
+DIS_00182,Zika Virus Fever,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00182,Zika Virus Fever,SYM_00002,Low Grade Fever,0.71,0
+DIS_00182,Zika Virus Fever,SYM_00009,Loss of Appetite,0.59,0
+DIS_00183,Chikungunya Arthritic Fever,SYM_00010,Generalized Malaise,0.95,1
+DIS_00183,Chikungunya Arthritic Fever,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00183,Chikungunya Arthritic Fever,SYM_00002,Low Grade Fever,0.71,0
+DIS_00183,Chikungunya Arthritic Fever,SYM_00009,Loss of Appetite,0.59,0
+DIS_00184,Yellow Fever,SYM_00010,Generalized Malaise,0.95,1
+DIS_00184,Yellow Fever,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00184,Yellow Fever,SYM_00002,Low Grade Fever,0.71,0
+DIS_00184,Yellow Fever,SYM_00009,Loss of Appetite,0.59,0
+DIS_00185,West Nile Neuroinvasive Disease,SYM_00010,Generalized Malaise,0.95,1
+DIS_00185,West Nile Neuroinvasive Disease,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00185,West Nile Neuroinvasive Disease,SYM_00002,Low Grade Fever,0.71,0
+DIS_00185,West Nile Neuroinvasive Disease,SYM_00009,Loss of Appetite,0.59,0
+DIS_00186,Tuberculosis (Pulmonary Cavitary),SYM_00010,Generalized Malaise,0.95,1
+DIS_00186,Tuberculosis (Pulmonary Cavitary),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00186,Tuberculosis (Pulmonary Cavitary),SYM_00002,Low Grade Fever,0.71,0
+DIS_00186,Tuberculosis (Pulmonary Cavitary),SYM_00009,Loss of Appetite,0.59,0
+DIS_00187,Extrapulmonary Tuberculosis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00187,Extrapulmonary Tuberculosis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00187,Extrapulmonary Tuberculosis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00187,Extrapulmonary Tuberculosis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00188,Meningococcal Meningitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00188,Meningococcal Meningitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00188,Meningococcal Meningitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00188,Meningococcal Meningitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00189,Pneumococcal Meningitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00189,Pneumococcal Meningitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00189,Pneumococcal Meningitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00189,Pneumococcal Meningitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00190,Listeria Monocytogenes Infection,SYM_00010,Generalized Malaise,0.95,1
+DIS_00190,Listeria Monocytogenes Infection,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00190,Listeria Monocytogenes Infection,SYM_00002,Low Grade Fever,0.71,0
+DIS_00190,Listeria Monocytogenes Infection,SYM_00009,Loss of Appetite,0.59,0
+DIS_00191,Salmonellosis Gastroenteritis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00191,Salmonellosis Gastroenteritis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00191,Salmonellosis Gastroenteritis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00191,Salmonellosis Gastroenteritis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00192,Shigellosis (Bacillary Dysentery),SYM_00010,Generalized Malaise,0.95,1
+DIS_00192,Shigellosis (Bacillary Dysentery),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00192,Shigellosis (Bacillary Dysentery),SYM_00002,Low Grade Fever,0.71,0
+DIS_00192,Shigellosis (Bacillary Dysentery),SYM_00009,Loss of Appetite,0.59,0
+DIS_00193,Campylobacter Enteritis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00193,Campylobacter Enteritis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00193,Campylobacter Enteritis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00193,Campylobacter Enteritis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00194,Cholera (Vibrio Cholerae),SYM_00010,Generalized Malaise,0.95,1
+DIS_00194,Cholera (Vibrio Cholerae),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00194,Cholera (Vibrio Cholerae),SYM_00002,Low Grade Fever,0.71,0
+DIS_00194,Cholera (Vibrio Cholerae),SYM_00009,Loss of Appetite,0.59,0
+DIS_00195,Brucellosis (Undulant Fever),SYM_00010,Generalized Malaise,0.95,1
+DIS_00195,Brucellosis (Undulant Fever),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00195,Brucellosis (Undulant Fever),SYM_00002,Low Grade Fever,0.71,0
+DIS_00195,Brucellosis (Undulant Fever),SYM_00009,Loss of Appetite,0.59,0
+DIS_00196,Plaque Psoriasis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00196,Plaque Psoriasis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00196,Plaque Psoriasis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00196,Plaque Psoriasis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00197,Guttate Psoriasis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00197,Guttate Psoriasis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00197,Guttate Psoriasis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00197,Guttate Psoriasis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00198,Atopic Dermatitis (Eczema),SYM_00010,Generalized Malaise,0.95,1
+DIS_00198,Atopic Dermatitis (Eczema),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00198,Atopic Dermatitis (Eczema),SYM_00002,Low Grade Fever,0.71,0
+DIS_00198,Atopic Dermatitis (Eczema),SYM_00009,Loss of Appetite,0.59,0
+DIS_00199,Contact Dermatitis (Allergic),SYM_00010,Generalized Malaise,0.95,1
+DIS_00199,Contact Dermatitis (Allergic),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00199,Contact Dermatitis (Allergic),SYM_00002,Low Grade Fever,0.71,0
+DIS_00199,Contact Dermatitis (Allergic),SYM_00009,Loss of Appetite,0.59,0
+DIS_00200,Contact Dermatitis (Irritant),SYM_00010,Generalized Malaise,0.95,1
+DIS_00200,Contact Dermatitis (Irritant),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00200,Contact Dermatitis (Irritant),SYM_00002,Low Grade Fever,0.71,0
+DIS_00200,Contact Dermatitis (Irritant),SYM_00009,Loss of Appetite,0.59,0
+DIS_00201,Seborrheic Dermatitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00201,Seborrheic Dermatitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00201,Seborrheic Dermatitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00201,Seborrheic Dermatitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00202,Acne Vulgaris (Cystic),SYM_00010,Generalized Malaise,0.95,1
+DIS_00202,Acne Vulgaris (Cystic),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00202,Acne Vulgaris (Cystic),SYM_00002,Low Grade Fever,0.71,0
+DIS_00202,Acne Vulgaris (Cystic),SYM_00009,Loss of Appetite,0.59,0
+DIS_00203,Acne Rosacea (Papulopustular),SYM_00010,Generalized Malaise,0.95,1
+DIS_00203,Acne Rosacea (Papulopustular),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00203,Acne Rosacea (Papulopustular),SYM_00002,Low Grade Fever,0.71,0
+DIS_00203,Acne Rosacea (Papulopustular),SYM_00009,Loss of Appetite,0.59,0
+DIS_00204,Hidradenitis Suppurativa,SYM_00010,Generalized Malaise,0.95,1
+DIS_00204,Hidradenitis Suppurativa,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00204,Hidradenitis Suppurativa,SYM_00002,Low Grade Fever,0.71,0
+DIS_00204,Hidradenitis Suppurativa,SYM_00009,Loss of Appetite,0.59,0
+DIS_00205,Lichen Planus,SYM_00010,Generalized Malaise,0.95,1
+DIS_00205,Lichen Planus,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00205,Lichen Planus,SYM_00002,Low Grade Fever,0.71,0
+DIS_00205,Lichen Planus,SYM_00009,Loss of Appetite,0.59,0
+DIS_00206,Lichen Sclerosus,SYM_00010,Generalized Malaise,0.95,1
+DIS_00206,Lichen Sclerosus,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00206,Lichen Sclerosus,SYM_00002,Low Grade Fever,0.71,0
+DIS_00206,Lichen Sclerosus,SYM_00009,Loss of Appetite,0.59,0
+DIS_00207,Pityriasis Rosea,SYM_00010,Generalized Malaise,0.95,1
+DIS_00207,Pityriasis Rosea,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00207,Pityriasis Rosea,SYM_00002,Low Grade Fever,0.71,0
+DIS_00207,Pityriasis Rosea,SYM_00009,Loss of Appetite,0.59,0
+DIS_00208,Pemphigus Vulgaris,SYM_00010,Generalized Malaise,0.95,1
+DIS_00208,Pemphigus Vulgaris,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00208,Pemphigus Vulgaris,SYM_00002,Low Grade Fever,0.71,0
+DIS_00208,Pemphigus Vulgaris,SYM_00009,Loss of Appetite,0.59,0
+DIS_00209,Bullous Pemphigoid,SYM_00010,Generalized Malaise,0.95,1
+DIS_00209,Bullous Pemphigoid,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00209,Bullous Pemphigoid,SYM_00002,Low Grade Fever,0.71,0
+DIS_00209,Bullous Pemphigoid,SYM_00009,Loss of Appetite,0.59,0
+DIS_00210,Vitiligo (Generalized),SYM_00010,Generalized Malaise,0.95,1
+DIS_00210,Vitiligo (Generalized),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00210,Vitiligo (Generalized),SYM_00002,Low Grade Fever,0.71,0
+DIS_00210,Vitiligo (Generalized),SYM_00009,Loss of Appetite,0.59,0
+DIS_00211,Alopecia Areata,SYM_00010,Generalized Malaise,0.95,1
+DIS_00211,Alopecia Areata,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00211,Alopecia Areata,SYM_00002,Low Grade Fever,0.71,0
+DIS_00211,Alopecia Areata,SYM_00009,Loss of Appetite,0.59,0
+DIS_00212,Melasma (Chloasma),SYM_00010,Generalized Malaise,0.95,1
+DIS_00212,Melasma (Chloasma),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00212,Melasma (Chloasma),SYM_00002,Low Grade Fever,0.71,0
+DIS_00212,Melasma (Chloasma),SYM_00009,Loss of Appetite,0.59,0
+DIS_00213,Urticaria (Chronic Spontaneous),SYM_00010,Generalized Malaise,0.95,1
+DIS_00213,Urticaria (Chronic Spontaneous),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00213,Urticaria (Chronic Spontaneous),SYM_00002,Low Grade Fever,0.71,0
+DIS_00213,Urticaria (Chronic Spontaneous),SYM_00009,Loss of Appetite,0.59,0
+DIS_00214,Dermatographia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00214,Dermatographia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00214,Dermatographia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00214,Dermatographia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00215,Erythema Nodosum,SYM_00010,Generalized Malaise,0.95,1
+DIS_00215,Erythema Nodosum,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00215,Erythema Nodosum,SYM_00002,Low Grade Fever,0.71,0
+DIS_00215,Erythema Nodosum,SYM_00009,Loss of Appetite,0.59,0
+DIS_00216,Erythema Multiforme,SYM_00010,Generalized Malaise,0.95,1
+DIS_00216,Erythema Multiforme,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00216,Erythema Multiforme,SYM_00002,Low Grade Fever,0.71,0
+DIS_00216,Erythema Multiforme,SYM_00009,Loss of Appetite,0.59,0
+DIS_00217,Stevens-Johnson Syndrome (SJS),SYM_00010,Generalized Malaise,0.95,1
+DIS_00217,Stevens-Johnson Syndrome (SJS),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00217,Stevens-Johnson Syndrome (SJS),SYM_00002,Low Grade Fever,0.71,0
+DIS_00217,Stevens-Johnson Syndrome (SJS),SYM_00009,Loss of Appetite,0.59,0
+DIS_00218,Impetigo (Contagiosa),SYM_00010,Generalized Malaise,0.95,1
+DIS_00218,Impetigo (Contagiosa),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00218,Impetigo (Contagiosa),SYM_00002,Low Grade Fever,0.71,0
+DIS_00218,Impetigo (Contagiosa),SYM_00009,Loss of Appetite,0.59,0
+DIS_00219,Folliculitis (Bacterial),SYM_00010,Generalized Malaise,0.95,1
+DIS_00219,Folliculitis (Bacterial),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00219,Folliculitis (Bacterial),SYM_00002,Low Grade Fever,0.71,0
+DIS_00219,Folliculitis (Bacterial),SYM_00009,Loss of Appetite,0.59,0
+DIS_00220,Cellulitis (Streptococcal),SYM_00010,Generalized Malaise,0.95,1
+DIS_00220,Cellulitis (Streptococcal),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00220,Cellulitis (Streptococcal),SYM_00002,Low Grade Fever,0.71,0
+DIS_00220,Cellulitis (Streptococcal),SYM_00009,Loss of Appetite,0.59,0
+DIS_00221,Erysipelas,SYM_00010,Generalized Malaise,0.95,1
+DIS_00221,Erysipelas,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00221,Erysipelas,SYM_00002,Low Grade Fever,0.71,0
+DIS_00221,Erysipelas,SYM_00009,Loss of Appetite,0.59,0
+DIS_00222,Tinea Corporis (Ringworm),SYM_00010,Generalized Malaise,0.95,1
+DIS_00222,Tinea Corporis (Ringworm),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00222,Tinea Corporis (Ringworm),SYM_00002,Low Grade Fever,0.71,0
+DIS_00222,Tinea Corporis (Ringworm),SYM_00009,Loss of Appetite,0.59,0
+DIS_00223,Tinea Versicolor,SYM_00010,Generalized Malaise,0.95,1
+DIS_00223,Tinea Versicolor,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00223,Tinea Versicolor,SYM_00002,Low Grade Fever,0.71,0
+DIS_00223,Tinea Versicolor,SYM_00009,Loss of Appetite,0.59,0
+DIS_00224,Scabies Infestation,SYM_00010,Generalized Malaise,0.95,1
+DIS_00224,Scabies Infestation,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00224,Scabies Infestation,SYM_00002,Low Grade Fever,0.71,0
+DIS_00224,Scabies Infestation,SYM_00009,Loss of Appetite,0.59,0
+DIS_00225,Cutaneous Lupus Erythematosus,SYM_00010,Generalized Malaise,0.95,1
+DIS_00225,Cutaneous Lupus Erythematosus,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00225,Cutaneous Lupus Erythematosus,SYM_00002,Low Grade Fever,0.71,0
+DIS_00225,Cutaneous Lupus Erythematosus,SYM_00009,Loss of Appetite,0.59,0
+DIS_00226,Systemic Lupus Erythematosus (SLE),SYM_00010,Generalized Malaise,0.95,1
+DIS_00226,Systemic Lupus Erythematosus (SLE),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00226,Systemic Lupus Erythematosus (SLE),SYM_00002,Low Grade Fever,0.71,0
+DIS_00226,Systemic Lupus Erythematosus (SLE),SYM_00009,Loss of Appetite,0.59,0
+DIS_00227,Ankylosing Spondylitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00227,Ankylosing Spondylitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00227,Ankylosing Spondylitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00227,Ankylosing Spondylitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00228,Psoriatic Arthritis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00228,Psoriatic Arthritis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00228,Psoriatic Arthritis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00228,Psoriatic Arthritis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00229,Sjögren Syndrome (Sicca),SYM_00010,Generalized Malaise,0.95,1
+DIS_00229,Sjögren Syndrome (Sicca),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00229,Sjögren Syndrome (Sicca),SYM_00002,Low Grade Fever,0.71,0
+DIS_00229,Sjögren Syndrome (Sicca),SYM_00009,Loss of Appetite,0.59,0
+DIS_00230,Systemic Sclerosis (Scleroderma),SYM_00010,Generalized Malaise,0.95,1
+DIS_00230,Systemic Sclerosis (Scleroderma),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00230,Systemic Sclerosis (Scleroderma),SYM_00002,Low Grade Fever,0.71,0
+DIS_00230,Systemic Sclerosis (Scleroderma),SYM_00009,Loss of Appetite,0.59,0
+DIS_00231,Polymyositis (Inflammatory Myopathy),SYM_00010,Generalized Malaise,0.95,1
+DIS_00231,Polymyositis (Inflammatory Myopathy),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00231,Polymyositis (Inflammatory Myopathy),SYM_00002,Low Grade Fever,0.71,0
+DIS_00231,Polymyositis (Inflammatory Myopathy),SYM_00009,Loss of Appetite,0.59,0
+DIS_00232,Dermatomyositis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00232,Dermatomyositis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00232,Dermatomyositis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00232,Dermatomyositis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00233,Polymyalgia Rheumatica,SYM_00010,Generalized Malaise,0.95,1
+DIS_00233,Polymyalgia Rheumatica,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00233,Polymyalgia Rheumatica,SYM_00002,Low Grade Fever,0.71,0
+DIS_00233,Polymyalgia Rheumatica,SYM_00009,Loss of Appetite,0.59,0
+DIS_00234,Behçet Disease,SYM_00010,Generalized Malaise,0.95,1
+DIS_00234,Behçet Disease,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00234,Behçet Disease,SYM_00002,Low Grade Fever,0.71,0
+DIS_00234,Behçet Disease,SYM_00009,Loss of Appetite,0.59,0
+DIS_00235,Granulomatosis with Polyangiitis (Wegener),SYM_00010,Generalized Malaise,0.95,1
+DIS_00235,Granulomatosis with Polyangiitis (Wegener),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00235,Granulomatosis with Polyangiitis (Wegener),SYM_00002,Low Grade Fever,0.71,0
+DIS_00235,Granulomatosis with Polyangiitis (Wegener),SYM_00009,Loss of Appetite,0.59,0
+DIS_00236,Microscopic Polyangiitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00236,Microscopic Polyangiitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00236,Microscopic Polyangiitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00236,Microscopic Polyangiitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00237,Henoch-Schönlein Purpura,SYM_00010,Generalized Malaise,0.95,1
+DIS_00237,Henoch-Schönlein Purpura,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00237,Henoch-Schönlein Purpura,SYM_00002,Low Grade Fever,0.71,0
+DIS_00237,Henoch-Schönlein Purpura,SYM_00009,Loss of Appetite,0.59,0
+DIS_00238,Kawasaki Disease,SYM_00010,Generalized Malaise,0.95,1
+DIS_00238,Kawasaki Disease,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00238,Kawasaki Disease,SYM_00002,Low Grade Fever,0.71,0
+DIS_00238,Kawasaki Disease,SYM_00009,Loss of Appetite,0.59,0
+DIS_00239,Takayasu Arteritis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00239,Takayasu Arteritis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00239,Takayasu Arteritis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00239,Takayasu Arteritis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00240,Mixed Connective Tissue Disease (MCTD),SYM_00010,Generalized Malaise,0.95,1
+DIS_00240,Mixed Connective Tissue Disease (MCTD),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00240,Mixed Connective Tissue Disease (MCTD),SYM_00002,Low Grade Fever,0.71,0
+DIS_00240,Mixed Connective Tissue Disease (MCTD),SYM_00009,Loss of Appetite,0.59,0
+DIS_00241,Antiphospholipid Antibody Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00241,Antiphospholipid Antibody Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00241,Antiphospholipid Antibody Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00241,Antiphospholipid Antibody Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00242,Adult-Onset Still Disease,SYM_00010,Generalized Malaise,0.95,1
+DIS_00242,Adult-Onset Still Disease,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00242,Adult-Onset Still Disease,SYM_00002,Low Grade Fever,0.71,0
+DIS_00242,Adult-Onset Still Disease,SYM_00009,Loss of Appetite,0.59,0
+DIS_00243,Reactive Arthritis (Reiter),SYM_00010,Generalized Malaise,0.95,1
+DIS_00243,Reactive Arthritis (Reiter),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00243,Reactive Arthritis (Reiter),SYM_00002,Low Grade Fever,0.71,0
+DIS_00243,Reactive Arthritis (Reiter),SYM_00009,Loss of Appetite,0.59,0
+DIS_00244,Enteropathic Arthritis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00244,Enteropathic Arthritis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00244,Enteropathic Arthritis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00244,Enteropathic Arthritis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00245,Fibromyalgia Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00245,Fibromyalgia Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00245,Fibromyalgia Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00245,Fibromyalgia Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00246,Undifferentiated Spondyloarthritis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00246,Undifferentiated Spondyloarthritis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00246,Undifferentiated Spondyloarthritis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00246,Undifferentiated Spondyloarthritis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00247,Relapsing Polychondritis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00247,Relapsing Polychondritis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00247,Relapsing Polychondritis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00247,Relapsing Polychondritis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00248,IgG4-Related Disease,SYM_00010,Generalized Malaise,0.95,1
+DIS_00248,IgG4-Related Disease,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00248,IgG4-Related Disease,SYM_00002,Low Grade Fever,0.71,0
+DIS_00248,IgG4-Related Disease,SYM_00009,Loss of Appetite,0.59,0
+DIS_00249,SAPHO Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00249,SAPHO Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00249,SAPHO Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00249,SAPHO Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00250,Palindromic Rheumatism,SYM_00010,Generalized Malaise,0.95,1
+DIS_00250,Palindromic Rheumatism,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00250,Palindromic Rheumatism,SYM_00002,Low Grade Fever,0.71,0
+DIS_00250,Palindromic Rheumatism,SYM_00009,Loss of Appetite,0.59,0
+DIS_00251,Ehlers-Danlos Hypermobility Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00251,Ehlers-Danlos Hypermobility Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00251,Ehlers-Danlos Hypermobility Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00251,Ehlers-Danlos Hypermobility Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00252,Marfan Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00252,Marfan Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00252,Marfan Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00252,Marfan Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00253,Osteoarthritis (Knee & Hip),SYM_00010,Generalized Malaise,0.95,1
+DIS_00253,Osteoarthritis (Knee & Hip),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00253,Osteoarthritis (Knee & Hip),SYM_00002,Low Grade Fever,0.71,0
+DIS_00253,Osteoarthritis (Knee & Hip),SYM_00009,Loss of Appetite,0.59,0
+DIS_00254,Diffuse Idiopathic Skeletal Hyperostosis (DISH),SYM_00010,Generalized Malaise,0.95,1
+DIS_00254,Diffuse Idiopathic Skeletal Hyperostosis (DISH),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00254,Diffuse Idiopathic Skeletal Hyperostosis (DISH),SYM_00002,Low Grade Fever,0.71,0
+DIS_00254,Diffuse Idiopathic Skeletal Hyperostosis (DISH),SYM_00009,Loss of Appetite,0.59,0
+DIS_00255,Eosinophilic Fasciitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00255,Eosinophilic Fasciitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00255,Eosinophilic Fasciitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00255,Eosinophilic Fasciitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00256,Acute Tubular Necrosis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00256,Acute Tubular Necrosis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00256,Acute Tubular Necrosis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00256,Acute Tubular Necrosis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00257,Acute Glomerulonephritis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00257,Acute Glomerulonephritis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00257,Acute Glomerulonephritis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00257,Acute Glomerulonephritis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00258,Post-Streptococcal Glomerulonephritis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00258,Post-Streptococcal Glomerulonephritis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00258,Post-Streptococcal Glomerulonephritis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00258,Post-Streptococcal Glomerulonephritis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00259,Membranous Nephropathy,SYM_00010,Generalized Malaise,0.95,1
+DIS_00259,Membranous Nephropathy,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00259,Membranous Nephropathy,SYM_00002,Low Grade Fever,0.71,0
+DIS_00259,Membranous Nephropathy,SYM_00009,Loss of Appetite,0.59,0
+DIS_00260,Minimal Change Disease,SYM_00010,Generalized Malaise,0.95,1
+DIS_00260,Minimal Change Disease,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00260,Minimal Change Disease,SYM_00002,Low Grade Fever,0.71,0
+DIS_00260,Minimal Change Disease,SYM_00009,Loss of Appetite,0.59,0
+DIS_00261,Focal Segmental Glomerulosclerosis (FSGS),SYM_00010,Generalized Malaise,0.95,1
+DIS_00261,Focal Segmental Glomerulosclerosis (FSGS),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00261,Focal Segmental Glomerulosclerosis (FSGS),SYM_00002,Low Grade Fever,0.71,0
+DIS_00261,Focal Segmental Glomerulosclerosis (FSGS),SYM_00009,Loss of Appetite,0.59,0
+DIS_00262,IgA Nephropathy (Berger Disease),SYM_00010,Generalized Malaise,0.95,1
+DIS_00262,IgA Nephropathy (Berger Disease),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00262,IgA Nephropathy (Berger Disease),SYM_00002,Low Grade Fever,0.71,0
+DIS_00262,IgA Nephropathy (Berger Disease),SYM_00009,Loss of Appetite,0.59,0
+DIS_00263,Lupus Nephritis Class IV,SYM_00010,Generalized Malaise,0.95,1
+DIS_00263,Lupus Nephritis Class IV,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00263,Lupus Nephritis Class IV,SYM_00002,Low Grade Fever,0.71,0
+DIS_00263,Lupus Nephritis Class IV,SYM_00009,Loss of Appetite,0.59,0
+DIS_00264,Diabetic Nephropathy,SYM_00010,Generalized Malaise,0.95,1
+DIS_00264,Diabetic Nephropathy,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00264,Diabetic Nephropathy,SYM_00002,Low Grade Fever,0.71,0
+DIS_00264,Diabetic Nephropathy,SYM_00009,Loss of Appetite,0.59,0
+DIS_00265,Hypertensive Nephrosclerosis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00265,Hypertensive Nephrosclerosis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00265,Hypertensive Nephrosclerosis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00265,Hypertensive Nephrosclerosis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00266,Polycystic Kidney Disease (ADPKD),SYM_00010,Generalized Malaise,0.95,1
+DIS_00266,Polycystic Kidney Disease (ADPKD),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00266,Polycystic Kidney Disease (ADPKD),SYM_00002,Low Grade Fever,0.71,0
+DIS_00266,Polycystic Kidney Disease (ADPKD),SYM_00009,Loss of Appetite,0.59,0
+DIS_00267,Nephrolithiasis (Calcium Oxalate Stones),SYM_00010,Generalized Malaise,0.95,1
+DIS_00267,Nephrolithiasis (Calcium Oxalate Stones),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00267,Nephrolithiasis (Calcium Oxalate Stones),SYM_00002,Low Grade Fever,0.71,0
+DIS_00267,Nephrolithiasis (Calcium Oxalate Stones),SYM_00009,Loss of Appetite,0.59,0
+DIS_00268,Uric Acid Kidney Stones,SYM_00010,Generalized Malaise,0.95,1
+DIS_00268,Uric Acid Kidney Stones,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00268,Uric Acid Kidney Stones,SYM_00002,Low Grade Fever,0.71,0
+DIS_00268,Uric Acid Kidney Stones,SYM_00009,Loss of Appetite,0.59,0
+DIS_00269,Struvite Staghorn Calculi,SYM_00010,Generalized Malaise,0.95,1
+DIS_00269,Struvite Staghorn Calculi,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00269,Struvite Staghorn Calculi,SYM_00002,Low Grade Fever,0.71,0
+DIS_00269,Struvite Staghorn Calculi,SYM_00009,Loss of Appetite,0.59,0
+DIS_00270,Renal Tubular Acidosis Type 1,SYM_00010,Generalized Malaise,0.95,1
+DIS_00270,Renal Tubular Acidosis Type 1,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00270,Renal Tubular Acidosis Type 1,SYM_00002,Low Grade Fever,0.71,0
+DIS_00270,Renal Tubular Acidosis Type 1,SYM_00009,Loss of Appetite,0.59,0
+DIS_00271,Renal Tubular Acidosis Type 2,SYM_00010,Generalized Malaise,0.95,1
+DIS_00271,Renal Tubular Acidosis Type 2,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00271,Renal Tubular Acidosis Type 2,SYM_00002,Low Grade Fever,0.71,0
+DIS_00271,Renal Tubular Acidosis Type 2,SYM_00009,Loss of Appetite,0.59,0
+DIS_00272,Fanconi Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00272,Fanconi Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00272,Fanconi Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00272,Fanconi Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00273,Medullary Sponge Kidney,SYM_00010,Generalized Malaise,0.95,1
+DIS_00273,Medullary Sponge Kidney,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00273,Medullary Sponge Kidney,SYM_00002,Low Grade Fever,0.71,0
+DIS_00273,Medullary Sponge Kidney,SYM_00009,Loss of Appetite,0.59,0
+DIS_00274,Alport Hereditary Nephritis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00274,Alport Hereditary Nephritis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00274,Alport Hereditary Nephritis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00274,Alport Hereditary Nephritis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00275,Goodpasture Anti-GBM Disease,SYM_00010,Generalized Malaise,0.95,1
+DIS_00275,Goodpasture Anti-GBM Disease,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00275,Goodpasture Anti-GBM Disease,SYM_00002,Low Grade Fever,0.71,0
+DIS_00275,Goodpasture Anti-GBM Disease,SYM_00009,Loss of Appetite,0.59,0
+DIS_00276,Interstitial Nephritis (Drug-Induced),SYM_00010,Generalized Malaise,0.95,1
+DIS_00276,Interstitial Nephritis (Drug-Induced),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00276,Interstitial Nephritis (Drug-Induced),SYM_00002,Low Grade Fever,0.71,0
+DIS_00276,Interstitial Nephritis (Drug-Induced),SYM_00009,Loss of Appetite,0.59,0
+DIS_00277,Pyelonephritis (Acute Uncomplicated),SYM_00010,Generalized Malaise,0.95,1
+DIS_00277,Pyelonephritis (Acute Uncomplicated),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00277,Pyelonephritis (Acute Uncomplicated),SYM_00002,Low Grade Fever,0.71,0
+DIS_00277,Pyelonephritis (Acute Uncomplicated),SYM_00009,Loss of Appetite,0.59,0
+DIS_00278,Pyelonephritis (Chronic),SYM_00010,Generalized Malaise,0.95,1
+DIS_00278,Pyelonephritis (Chronic),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00278,Pyelonephritis (Chronic),SYM_00002,Low Grade Fever,0.71,0
+DIS_00278,Pyelonephritis (Chronic),SYM_00009,Loss of Appetite,0.59,0
+DIS_00279,Hydronephrosis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00279,Hydronephrosis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00279,Hydronephrosis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00279,Hydronephrosis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00280,Renal Infarction,SYM_00010,Generalized Malaise,0.95,1
+DIS_00280,Renal Infarction,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00280,Renal Infarction,SYM_00002,Low Grade Fever,0.71,0
+DIS_00280,Renal Infarction,SYM_00009,Loss of Appetite,0.59,0
+DIS_00281,Hepatorenal Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00281,Hepatorenal Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00281,Hepatorenal Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00281,Hepatorenal Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00282,Cardiorenal Syndrome Type 1,SYM_00010,Generalized Malaise,0.95,1
+DIS_00282,Cardiorenal Syndrome Type 1,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00282,Cardiorenal Syndrome Type 1,SYM_00002,Low Grade Fever,0.71,0
+DIS_00282,Cardiorenal Syndrome Type 1,SYM_00009,Loss of Appetite,0.59,0
+DIS_00283,Uremic Pruritus Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00283,Uremic Pruritus Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00283,Uremic Pruritus Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00283,Uremic Pruritus Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00284,Renal Glycosuria,SYM_00010,Generalized Malaise,0.95,1
+DIS_00284,Renal Glycosuria,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00284,Renal Glycosuria,SYM_00002,Low Grade Fever,0.71,0
+DIS_00284,Renal Glycosuria,SYM_00009,Loss of Appetite,0.59,0
+DIS_00285,End-Stage Renal Disease (ESRD),SYM_00010,Generalized Malaise,0.95,1
+DIS_00285,End-Stage Renal Disease (ESRD),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00285,End-Stage Renal Disease (ESRD),SYM_00002,Low Grade Fever,0.71,0
+DIS_00285,End-Stage Renal Disease (ESRD),SYM_00009,Loss of Appetite,0.59,0
+DIS_00286,Iron Deficiency Anemia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00286,Iron Deficiency Anemia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00286,Iron Deficiency Anemia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00286,Iron Deficiency Anemia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00287,Vitamin B12 Pernicious Anemia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00287,Vitamin B12 Pernicious Anemia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00287,Vitamin B12 Pernicious Anemia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00287,Vitamin B12 Pernicious Anemia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00288,Folate Deficiency Megaloblastic Anemia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00288,Folate Deficiency Megaloblastic Anemia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00288,Folate Deficiency Megaloblastic Anemia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00288,Folate Deficiency Megaloblastic Anemia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00289,Aplastic Anemia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00289,Aplastic Anemia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00289,Aplastic Anemia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00289,Aplastic Anemia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00290,Sickle Cell Anemia (Crisis),SYM_00010,Generalized Malaise,0.95,1
+DIS_00290,Sickle Cell Anemia (Crisis),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00290,Sickle Cell Anemia (Crisis),SYM_00002,Low Grade Fever,0.71,0
+DIS_00290,Sickle Cell Anemia (Crisis),SYM_00009,Loss of Appetite,0.59,0
+DIS_00291,Thalassemia Major,SYM_00010,Generalized Malaise,0.95,1
+DIS_00291,Thalassemia Major,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00291,Thalassemia Major,SYM_00002,Low Grade Fever,0.71,0
+DIS_00291,Thalassemia Major,SYM_00009,Loss of Appetite,0.59,0
+DIS_00292,Thalassemia Minor,SYM_00010,Generalized Malaise,0.95,1
+DIS_00292,Thalassemia Minor,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00292,Thalassemia Minor,SYM_00002,Low Grade Fever,0.71,0
+DIS_00292,Thalassemia Minor,SYM_00009,Loss of Appetite,0.59,0
+DIS_00293,Autoimmune Hemolytic Anemia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00293,Autoimmune Hemolytic Anemia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00293,Autoimmune Hemolytic Anemia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00293,Autoimmune Hemolytic Anemia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00294,Glucose-6-Phosphate Dehydrogenase (G6PD) Deficiency,SYM_00010,Generalized Malaise,0.95,1
+DIS_00294,Glucose-6-Phosphate Dehydrogenase (G6PD) Deficiency,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00294,Glucose-6-Phosphate Dehydrogenase (G6PD) Deficiency,SYM_00002,Low Grade Fever,0.71,0
+DIS_00294,Glucose-6-Phosphate Dehydrogenase (G6PD) Deficiency,SYM_00009,Loss of Appetite,0.59,0
+DIS_00295,Immune Thrombocytopenic Purpura (ITP),SYM_00010,Generalized Malaise,0.95,1
+DIS_00295,Immune Thrombocytopenic Purpura (ITP),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00295,Immune Thrombocytopenic Purpura (ITP),SYM_00002,Low Grade Fever,0.71,0
+DIS_00295,Immune Thrombocytopenic Purpura (ITP),SYM_00009,Loss of Appetite,0.59,0
+DIS_00296,Thrombotic Thrombocytopenic Purpura (TTP),SYM_00010,Generalized Malaise,0.95,1
+DIS_00296,Thrombotic Thrombocytopenic Purpura (TTP),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00296,Thrombotic Thrombocytopenic Purpura (TTP),SYM_00002,Low Grade Fever,0.71,0
+DIS_00296,Thrombotic Thrombocytopenic Purpura (TTP),SYM_00009,Loss of Appetite,0.59,0
+DIS_00297,Hemolytic Uremic Syndrome (HUS),SYM_00010,Generalized Malaise,0.95,1
+DIS_00297,Hemolytic Uremic Syndrome (HUS),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00297,Hemolytic Uremic Syndrome (HUS),SYM_00002,Low Grade Fever,0.71,0
+DIS_00297,Hemolytic Uremic Syndrome (HUS),SYM_00009,Loss of Appetite,0.59,0
+DIS_00298,Disseminated Intravascular Coagulation (DIC),SYM_00010,Generalized Malaise,0.95,1
+DIS_00298,Disseminated Intravascular Coagulation (DIC),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00298,Disseminated Intravascular Coagulation (DIC),SYM_00002,Low Grade Fever,0.71,0
+DIS_00298,Disseminated Intravascular Coagulation (DIC),SYM_00009,Loss of Appetite,0.59,0
+DIS_00299,Von Willebrand Disease,SYM_00010,Generalized Malaise,0.95,1
+DIS_00299,Von Willebrand Disease,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00299,Von Willebrand Disease,SYM_00002,Low Grade Fever,0.71,0
+DIS_00299,Von Willebrand Disease,SYM_00009,Loss of Appetite,0.59,0
+DIS_00300,Hemophilia A (Factor VIII Deficiency),SYM_00010,Generalized Malaise,0.95,1
+DIS_00300,Hemophilia A (Factor VIII Deficiency),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00300,Hemophilia A (Factor VIII Deficiency),SYM_00002,Low Grade Fever,0.71,0
+DIS_00300,Hemophilia A (Factor VIII Deficiency),SYM_00009,Loss of Appetite,0.59,0
+DIS_00301,Hemophilia B (Factor IX Deficiency),SYM_00010,Generalized Malaise,0.95,1
+DIS_00301,Hemophilia B (Factor IX Deficiency),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00301,Hemophilia B (Factor IX Deficiency),SYM_00002,Low Grade Fever,0.71,0
+DIS_00301,Hemophilia B (Factor IX Deficiency),SYM_00009,Loss of Appetite,0.59,0
+DIS_00302,Polycythemia Vera,SYM_00010,Generalized Malaise,0.95,1
+DIS_00302,Polycythemia Vera,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00302,Polycythemia Vera,SYM_00002,Low Grade Fever,0.71,0
+DIS_00302,Polycythemia Vera,SYM_00009,Loss of Appetite,0.59,0
+DIS_00303,Essential Thrombocythemia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00303,Essential Thrombocythemia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00303,Essential Thrombocythemia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00303,Essential Thrombocythemia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00304,Primary Myelofibrosis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00304,Primary Myelofibrosis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00304,Primary Myelofibrosis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00304,Primary Myelofibrosis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00305,Myelodysplastic Syndrome (MDS),SYM_00010,Generalized Malaise,0.95,1
+DIS_00305,Myelodysplastic Syndrome (MDS),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00305,Myelodysplastic Syndrome (MDS),SYM_00002,Low Grade Fever,0.71,0
+DIS_00305,Myelodysplastic Syndrome (MDS),SYM_00009,Loss of Appetite,0.59,0
+DIS_00306,Acute Myeloid Leukemia (AML),SYM_00010,Generalized Malaise,0.95,1
+DIS_00306,Acute Myeloid Leukemia (AML),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00306,Acute Myeloid Leukemia (AML),SYM_00002,Low Grade Fever,0.71,0
+DIS_00306,Acute Myeloid Leukemia (AML),SYM_00009,Loss of Appetite,0.59,0
+DIS_00307,Acute Lymphoblastic Leukemia (ALL),SYM_00010,Generalized Malaise,0.95,1
+DIS_00307,Acute Lymphoblastic Leukemia (ALL),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00307,Acute Lymphoblastic Leukemia (ALL),SYM_00002,Low Grade Fever,0.71,0
+DIS_00307,Acute Lymphoblastic Leukemia (ALL),SYM_00009,Loss of Appetite,0.59,0
+DIS_00308,Chronic Myeloid Leukemia (CML),SYM_00010,Generalized Malaise,0.95,1
+DIS_00308,Chronic Myeloid Leukemia (CML),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00308,Chronic Myeloid Leukemia (CML),SYM_00002,Low Grade Fever,0.71,0
+DIS_00308,Chronic Myeloid Leukemia (CML),SYM_00009,Loss of Appetite,0.59,0
+DIS_00309,Chronic Lymphocytic Leukemia (CLL),SYM_00010,Generalized Malaise,0.95,1
+DIS_00309,Chronic Lymphocytic Leukemia (CLL),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00309,Chronic Lymphocytic Leukemia (CLL),SYM_00002,Low Grade Fever,0.71,0
+DIS_00309,Chronic Lymphocytic Leukemia (CLL),SYM_00009,Loss of Appetite,0.59,0
+DIS_00310,Hodgkin Lymphoma,SYM_00010,Generalized Malaise,0.95,1
+DIS_00310,Hodgkin Lymphoma,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00310,Hodgkin Lymphoma,SYM_00002,Low Grade Fever,0.71,0
+DIS_00310,Hodgkin Lymphoma,SYM_00009,Loss of Appetite,0.59,0
+DIS_00311,Non-Hodgkin Diffuse Large B-Cell Lymphoma,SYM_00010,Generalized Malaise,0.95,1
+DIS_00311,Non-Hodgkin Diffuse Large B-Cell Lymphoma,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00311,Non-Hodgkin Diffuse Large B-Cell Lymphoma,SYM_00002,Low Grade Fever,0.71,0
+DIS_00311,Non-Hodgkin Diffuse Large B-Cell Lymphoma,SYM_00009,Loss of Appetite,0.59,0
+DIS_00312,Multiple Myeloma,SYM_00010,Generalized Malaise,0.95,1
+DIS_00312,Multiple Myeloma,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00312,Multiple Myeloma,SYM_00002,Low Grade Fever,0.71,0
+DIS_00312,Multiple Myeloma,SYM_00009,Loss of Appetite,0.59,0
+DIS_00313,Waldenström Macroglobulinemia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00313,Waldenström Macroglobulinemia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00313,Waldenström Macroglobulinemia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00313,Waldenström Macroglobulinemia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00314,Monoclonal Gammopathy (MGUS),SYM_00010,Generalized Malaise,0.95,1
+DIS_00314,Monoclonal Gammopathy (MGUS),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00314,Monoclonal Gammopathy (MGUS),SYM_00002,Low Grade Fever,0.71,0
+DIS_00314,Monoclonal Gammopathy (MGUS),SYM_00009,Loss of Appetite,0.59,0
+DIS_00315,Hemophagocytic Lymphohistiocytosis (HLH),SYM_00010,Generalized Malaise,0.95,1
+DIS_00315,Hemophagocytic Lymphohistiocytosis (HLH),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00315,Hemophagocytic Lymphohistiocytosis (HLH),SYM_00002,Low Grade Fever,0.71,0
+DIS_00315,Hemophagocytic Lymphohistiocytosis (HLH),SYM_00009,Loss of Appetite,0.59,0
+DIS_00316,Generalized Anxiety Disorder (GAD),SYM_00010,Generalized Malaise,0.95,1
+DIS_00316,Generalized Anxiety Disorder (GAD),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00316,Generalized Anxiety Disorder (GAD),SYM_00002,Low Grade Fever,0.71,0
+DIS_00316,Generalized Anxiety Disorder (GAD),SYM_00009,Loss of Appetite,0.59,0
+DIS_00317,Panic Disorder with Agoraphobia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00317,Panic Disorder with Agoraphobia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00317,Panic Disorder with Agoraphobia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00317,Panic Disorder with Agoraphobia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00318,Social Anxiety Disorder (Social Phobia),SYM_00010,Generalized Malaise,0.95,1
+DIS_00318,Social Anxiety Disorder (Social Phobia),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00318,Social Anxiety Disorder (Social Phobia),SYM_00002,Low Grade Fever,0.71,0
+DIS_00318,Social Anxiety Disorder (Social Phobia),SYM_00009,Loss of Appetite,0.59,0
+DIS_00319,Obsessive-Compulsive Disorder (OCD),SYM_00010,Generalized Malaise,0.95,1
+DIS_00319,Obsessive-Compulsive Disorder (OCD),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00319,Obsessive-Compulsive Disorder (OCD),SYM_00002,Low Grade Fever,0.71,0
+DIS_00319,Obsessive-Compulsive Disorder (OCD),SYM_00009,Loss of Appetite,0.59,0
+DIS_00320,Post-Traumatic Stress Disorder (PTSD),SYM_00010,Generalized Malaise,0.95,1
+DIS_00320,Post-Traumatic Stress Disorder (PTSD),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00320,Post-Traumatic Stress Disorder (PTSD),SYM_00002,Low Grade Fever,0.71,0
+DIS_00320,Post-Traumatic Stress Disorder (PTSD),SYM_00009,Loss of Appetite,0.59,0
+DIS_00321,Bipolar I Disorder (Manic/Depressed),SYM_00010,Generalized Malaise,0.95,1
+DIS_00321,Bipolar I Disorder (Manic/Depressed),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00321,Bipolar I Disorder (Manic/Depressed),SYM_00002,Low Grade Fever,0.71,0
+DIS_00321,Bipolar I Disorder (Manic/Depressed),SYM_00009,Loss of Appetite,0.59,0
+DIS_00322,Bipolar II Disorder (Hypomanic),SYM_00010,Generalized Malaise,0.95,1
+DIS_00322,Bipolar II Disorder (Hypomanic),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00322,Bipolar II Disorder (Hypomanic),SYM_00002,Low Grade Fever,0.71,0
+DIS_00322,Bipolar II Disorder (Hypomanic),SYM_00009,Loss of Appetite,0.59,0
+DIS_00323,Cyclothymic Disorder,SYM_00010,Generalized Malaise,0.95,1
+DIS_00323,Cyclothymic Disorder,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00323,Cyclothymic Disorder,SYM_00002,Low Grade Fever,0.71,0
+DIS_00323,Cyclothymic Disorder,SYM_00009,Loss of Appetite,0.59,0
+DIS_00324,Persistent Depressive Disorder (Dysthymia),SYM_00010,Generalized Malaise,0.95,1
+DIS_00324,Persistent Depressive Disorder (Dysthymia),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00324,Persistent Depressive Disorder (Dysthymia),SYM_00002,Low Grade Fever,0.71,0
+DIS_00324,Persistent Depressive Disorder (Dysthymia),SYM_00009,Loss of Appetite,0.59,0
+DIS_00325,Schizophrenia (Paranoid Type),SYM_00010,Generalized Malaise,0.95,1
+DIS_00325,Schizophrenia (Paranoid Type),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00325,Schizophrenia (Paranoid Type),SYM_00002,Low Grade Fever,0.71,0
+DIS_00325,Schizophrenia (Paranoid Type),SYM_00009,Loss of Appetite,0.59,0
+DIS_00326,Schizoaffective Disorder,SYM_00010,Generalized Malaise,0.95,1
+DIS_00326,Schizoaffective Disorder,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00326,Schizoaffective Disorder,SYM_00002,Low Grade Fever,0.71,0
+DIS_00326,Schizoaffective Disorder,SYM_00009,Loss of Appetite,0.59,0
+DIS_00327,Borderline Personality Disorder,SYM_00010,Generalized Malaise,0.95,1
+DIS_00327,Borderline Personality Disorder,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00327,Borderline Personality Disorder,SYM_00002,Low Grade Fever,0.71,0
+DIS_00327,Borderline Personality Disorder,SYM_00009,Loss of Appetite,0.59,0
+DIS_00328,Attention Deficit Hyperactivity Disorder (ADHD),SYM_00010,Generalized Malaise,0.95,1
+DIS_00328,Attention Deficit Hyperactivity Disorder (ADHD),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00328,Attention Deficit Hyperactivity Disorder (ADHD),SYM_00002,Low Grade Fever,0.71,0
+DIS_00328,Attention Deficit Hyperactivity Disorder (ADHD),SYM_00009,Loss of Appetite,0.59,0
+DIS_00329,Autism Spectrum Condition (Adult),SYM_00010,Generalized Malaise,0.95,1
+DIS_00329,Autism Spectrum Condition (Adult),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00329,Autism Spectrum Condition (Adult),SYM_00002,Low Grade Fever,0.71,0
+DIS_00329,Autism Spectrum Condition (Adult),SYM_00009,Loss of Appetite,0.59,0
+DIS_00330,Anorexia Nervosa,SYM_00010,Generalized Malaise,0.95,1
+DIS_00330,Anorexia Nervosa,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00330,Anorexia Nervosa,SYM_00002,Low Grade Fever,0.71,0
+DIS_00330,Anorexia Nervosa,SYM_00009,Loss of Appetite,0.59,0
+DIS_00331,Bulimia Nervosa,SYM_00010,Generalized Malaise,0.95,1
+DIS_00331,Bulimia Nervosa,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00331,Bulimia Nervosa,SYM_00002,Low Grade Fever,0.71,0
+DIS_00331,Bulimia Nervosa,SYM_00009,Loss of Appetite,0.59,0
+DIS_00332,Binge Eating Disorder,SYM_00010,Generalized Malaise,0.95,1
+DIS_00332,Binge Eating Disorder,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00332,Binge Eating Disorder,SYM_00002,Low Grade Fever,0.71,0
+DIS_00332,Binge Eating Disorder,SYM_00009,Loss of Appetite,0.59,0
+DIS_00333,Insomnia Disorder (Chronic),SYM_00010,Generalized Malaise,0.95,1
+DIS_00333,Insomnia Disorder (Chronic),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00333,Insomnia Disorder (Chronic),SYM_00002,Low Grade Fever,0.71,0
+DIS_00333,Insomnia Disorder (Chronic),SYM_00009,Loss of Appetite,0.59,0
+DIS_00334,Narcolepsy Type 1 (with Cataplexy),SYM_00010,Generalized Malaise,0.95,1
+DIS_00334,Narcolepsy Type 1 (with Cataplexy),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00334,Narcolepsy Type 1 (with Cataplexy),SYM_00002,Low Grade Fever,0.71,0
+DIS_00334,Narcolepsy Type 1 (with Cataplexy),SYM_00009,Loss of Appetite,0.59,0
+DIS_00335,Somatic Symptom Disorder,SYM_00010,Generalized Malaise,0.95,1
+DIS_00335,Somatic Symptom Disorder,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00335,Somatic Symptom Disorder,SYM_00002,Low Grade Fever,0.71,0
+DIS_00335,Somatic Symptom Disorder,SYM_00009,Loss of Appetite,0.59,0
+DIS_00336,Illness Anxiety Disorder (Hypochondriasis),SYM_00010,Generalized Malaise,0.95,1
+DIS_00336,Illness Anxiety Disorder (Hypochondriasis),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00336,Illness Anxiety Disorder (Hypochondriasis),SYM_00002,Low Grade Fever,0.71,0
+DIS_00336,Illness Anxiety Disorder (Hypochondriasis),SYM_00009,Loss of Appetite,0.59,0
+DIS_00337,Dissociative Identity Disorder,SYM_00010,Generalized Malaise,0.95,1
+DIS_00337,Dissociative Identity Disorder,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00337,Dissociative Identity Disorder,SYM_00002,Low Grade Fever,0.71,0
+DIS_00337,Dissociative Identity Disorder,SYM_00009,Loss of Appetite,0.59,0
+DIS_00338,Premenstrual Dysphoric Disorder (PMDD),SYM_00010,Generalized Malaise,0.95,1
+DIS_00338,Premenstrual Dysphoric Disorder (PMDD),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00338,Premenstrual Dysphoric Disorder (PMDD),SYM_00002,Low Grade Fever,0.71,0
+DIS_00338,Premenstrual Dysphoric Disorder (PMDD),SYM_00009,Loss of Appetite,0.59,0
+DIS_00339,Seasonal Affective Disorder (SAD),SYM_00010,Generalized Malaise,0.95,1
+DIS_00339,Seasonal Affective Disorder (SAD),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00339,Seasonal Affective Disorder (SAD),SYM_00002,Low Grade Fever,0.71,0
+DIS_00339,Seasonal Affective Disorder (SAD),SYM_00009,Loss of Appetite,0.59,0
+DIS_00340,Adjustment Disorder with Anxiety,SYM_00010,Generalized Malaise,0.95,1
+DIS_00340,Adjustment Disorder with Anxiety,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00340,Adjustment Disorder with Anxiety,SYM_00002,Low Grade Fever,0.71,0
+DIS_00340,Adjustment Disorder with Anxiety,SYM_00009,Loss of Appetite,0.59,0
+DIS_00341,Delusional Disorder,SYM_00010,Generalized Malaise,0.95,1
+DIS_00341,Delusional Disorder,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00341,Delusional Disorder,SYM_00002,Low Grade Fever,0.71,0
+DIS_00341,Delusional Disorder,SYM_00009,Loss of Appetite,0.59,0
+DIS_00342,Agitation & Psychomotor Restlessness,SYM_00010,Generalized Malaise,0.95,1
+DIS_00342,Agitation & Psychomotor Restlessness,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00342,Agitation & Psychomotor Restlessness,SYM_00002,Low Grade Fever,0.71,0
+DIS_00342,Agitation & Psychomotor Restlessness,SYM_00009,Loss of Appetite,0.59,0
+DIS_00343,Substance Use Disorder (Alcohol),SYM_00010,Generalized Malaise,0.95,1
+DIS_00343,Substance Use Disorder (Alcohol),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00343,Substance Use Disorder (Alcohol),SYM_00002,Low Grade Fever,0.71,0
+DIS_00343,Substance Use Disorder (Alcohol),SYM_00009,Loss of Appetite,0.59,0
+DIS_00344,Cannabis Induced Anxiety,SYM_00010,Generalized Malaise,0.95,1
+DIS_00344,Cannabis Induced Anxiety,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00344,Cannabis Induced Anxiety,SYM_00002,Low Grade Fever,0.71,0
+DIS_00344,Cannabis Induced Anxiety,SYM_00009,Loss of Appetite,0.59,0
+DIS_00345,Nicotine Dependence,SYM_00010,Generalized Malaise,0.95,1
+DIS_00345,Nicotine Dependence,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00345,Nicotine Dependence,SYM_00002,Low Grade Fever,0.71,0
+DIS_00345,Nicotine Dependence,SYM_00009,Loss of Appetite,0.59,0
+DIS_00346,Primary Open-Angle Glaucoma,SYM_01541,Chronic Photophobia (Cornea),0.95,1
+DIS_00346,Primary Open-Angle Glaucoma,SYM_01544,Chronic Diplopia (Cornea),0.83,0
+DIS_00346,Primary Open-Angle Glaucoma,SYM_01548,Chronic Visual Field Loss (Cornea),0.71,0
+DIS_00346,Primary Open-Angle Glaucoma,SYM_00001,High Grade Fever,0.59,0
+DIS_00347,Acute Angle-Closure Glaucoma,SYM_01542,Chronic Blurred Vision (Cornea),0.95,1
+DIS_00347,Acute Angle-Closure Glaucoma,SYM_01545,Chronic Conjunctival Redness (Cornea),0.83,0
+DIS_00347,Acute Angle-Closure Glaucoma,SYM_01549,Chronic Grittiness (Cornea),0.71,0
+DIS_00347,Acute Angle-Closure Glaucoma,SYM_00002,Low Grade Fever,0.59,0
+DIS_00348,Age-Related Macular Degeneration (Dry),SYM_01543,Chronic Eye Strain (Cornea),0.95,1
+DIS_00348,Age-Related Macular Degeneration (Dry),SYM_01546,Chronic Ocular Discharge (Cornea),0.83,0
+DIS_00348,Age-Related Macular Degeneration (Dry),SYM_01550,Chronic Eye Pain (Cornea),0.71,0
+DIS_00348,Age-Related Macular Degeneration (Dry),SYM_00003,Intermittent Fever,0.59,0
+DIS_00349,Age-Related Macular Degeneration (Wet),SYM_01544,Chronic Diplopia (Cornea),0.95,1
+DIS_00349,Age-Related Macular Degeneration (Wet),SYM_01547,Chronic Floaters (Cornea),0.83,0
+DIS_00349,Age-Related Macular Degeneration (Wet),SYM_01551,Chronic Photophobia (Retina),0.71,0
+DIS_00349,Age-Related Macular Degeneration (Wet),SYM_00004,Chills with Shivering,0.59,0
+DIS_00350,Diabetic Retinopathy (Proliferative),SYM_01545,Chronic Conjunctival Redness (Cornea),0.95,1
+DIS_00350,Diabetic Retinopathy (Proliferative),SYM_01548,Chronic Visual Field Loss (Cornea),0.83,0
+DIS_00350,Diabetic Retinopathy (Proliferative),SYM_01552,Chronic Blurred Vision (Retina),0.71,0
+DIS_00350,Diabetic Retinopathy (Proliferative),SYM_00005,Chronic Fatigue,0.59,0
+DIS_00351,Cataract (Nuclear Sclerotic),SYM_01546,Chronic Ocular Discharge (Cornea),0.95,1
+DIS_00351,Cataract (Nuclear Sclerotic),SYM_01549,Chronic Grittiness (Cornea),0.83,0
+DIS_00351,Cataract (Nuclear Sclerotic),SYM_01553,Chronic Eye Strain (Retina),0.71,0
+DIS_00351,Cataract (Nuclear Sclerotic),SYM_00006,Unexplained Weight Loss,0.59,0
+DIS_00352,Retinal Detachment (Rhegmatogenous),SYM_01547,Chronic Floaters (Cornea),0.95,1
+DIS_00352,Retinal Detachment (Rhegmatogenous),SYM_01550,Chronic Eye Pain (Cornea),0.83,0
+DIS_00352,Retinal Detachment (Rhegmatogenous),SYM_01554,Chronic Diplopia (Retina),0.71,0
+DIS_00352,Retinal Detachment (Rhegmatogenous),SYM_00007,Rapid Weight Gain,0.59,0
+DIS_00353,Central Retinal Artery Occlusion,SYM_01548,Chronic Visual Field Loss (Cornea),0.95,1
+DIS_00353,Central Retinal Artery Occlusion,SYM_01551,Chronic Photophobia (Retina),0.83,0
+DIS_00353,Central Retinal Artery Occlusion,SYM_01555,Chronic Conjunctival Redness (Retina),0.71,0
+DIS_00353,Central Retinal Artery Occlusion,SYM_00008,Profuse Night Sweats,0.59,0
+DIS_00354,Central Retinal Vein Occlusion,SYM_01549,Chronic Grittiness (Cornea),0.95,1
+DIS_00354,Central Retinal Vein Occlusion,SYM_01552,Chronic Blurred Vision (Retina),0.83,0
+DIS_00354,Central Retinal Vein Occlusion,SYM_01556,Chronic Ocular Discharge (Retina),0.71,0
+DIS_00354,Central Retinal Vein Occlusion,SYM_00009,Loss of Appetite,0.59,0
+DIS_00355,Anterior Uveitis (Iritis),SYM_01550,Chronic Eye Pain (Cornea),0.95,1
+DIS_00355,Anterior Uveitis (Iritis),SYM_01553,Chronic Eye Strain (Retina),0.83,0
+DIS_00355,Anterior Uveitis (Iritis),SYM_01557,Chronic Floaters (Retina),0.71,0
+DIS_00355,Anterior Uveitis (Iritis),SYM_00010,Generalized Malaise,0.59,0
+DIS_00356,Posterior Scleritis,SYM_01551,Chronic Photophobia (Retina),0.95,1
+DIS_00356,Posterior Scleritis,SYM_01554,Chronic Diplopia (Retina),0.83,0
+DIS_00356,Posterior Scleritis,SYM_01558,Chronic Visual Field Loss (Retina),0.71,0
+DIS_00356,Posterior Scleritis,SYM_00011,Cold Intolerance,0.59,0
+DIS_00357,Episcleritis,SYM_01552,Chronic Blurred Vision (Retina),0.95,1
+DIS_00357,Episcleritis,SYM_01555,Chronic Conjunctival Redness (Retina),0.83,0
+DIS_00357,Episcleritis,SYM_01559,Chronic Grittiness (Retina),0.71,0
+DIS_00357,Episcleritis,SYM_00012,Heat Intolerance,0.59,0
+DIS_00358,Bacterial Keratitis,SYM_01553,Chronic Eye Strain (Retina),0.95,1
+DIS_00358,Bacterial Keratitis,SYM_01556,Chronic Ocular Discharge (Retina),0.83,0
+DIS_00358,Bacterial Keratitis,SYM_01560,Chronic Eye Pain (Retina),0.71,0
+DIS_00358,Bacterial Keratitis,SYM_00013,Generalized Edema,0.59,0
+DIS_00359,Herpes Simplex Keratitis,SYM_01554,Chronic Diplopia (Retina),0.95,1
+DIS_00359,Herpes Simplex Keratitis,SYM_01557,Chronic Floaters (Retina),0.83,0
+DIS_00359,Herpes Simplex Keratitis,SYM_01561,Chronic Photophobia (Optic Nerve),0.71,0
+DIS_00359,Herpes Simplex Keratitis,SYM_00014,Easy Bruising,0.59,0
+DIS_00360,Corneal Ulcer (Acanthamoeba),SYM_01555,Chronic Conjunctival Redness (Retina),0.95,1
+DIS_00360,Corneal Ulcer (Acanthamoeba),SYM_01558,Chronic Visual Field Loss (Retina),0.83,0
+DIS_00360,Corneal Ulcer (Acanthamoeba),SYM_01562,Chronic Blurred Vision (Optic Nerve),0.71,0
+DIS_00360,Corneal Ulcer (Acanthamoeba),SYM_00015,Extreme Thirst,0.59,0
+DIS_00361,Blepharitis (Posterior Meibomian),SYM_01556,Chronic Ocular Discharge (Retina),0.95,1
+DIS_00361,Blepharitis (Posterior Meibomian),SYM_01559,Chronic Grittiness (Retina),0.83,0
+DIS_00361,Blepharitis (Posterior Meibomian),SYM_01563,Chronic Eye Strain (Optic Nerve),0.71,0
+DIS_00361,Blepharitis (Posterior Meibomian),SYM_00016,Acute Dry Cough,0.59,0
+DIS_00362,Hordeolum (Stye),SYM_01557,Chronic Floaters (Retina),0.95,1
+DIS_00362,Hordeolum (Stye),SYM_01560,Chronic Eye Pain (Retina),0.83,0
+DIS_00362,Hordeolum (Stye),SYM_01564,Chronic Diplopia (Optic Nerve),0.71,0
+DIS_00362,Hordeolum (Stye),SYM_00017,Productive Mucopurulent Cough,0.59,0
+DIS_00363,Chalazion,SYM_01558,Chronic Visual Field Loss (Retina),0.95,1
+DIS_00363,Chalazion,SYM_01561,Chronic Photophobia (Optic Nerve),0.83,0
+DIS_00363,Chalazion,SYM_01565,Chronic Conjunctival Redness (Optic Nerve),0.71,0
+DIS_00363,Chalazion,SYM_00018,Coughing Blood,0.59,0
+DIS_00364,Pterygium,SYM_01559,Chronic Grittiness (Retina),0.95,1
+DIS_00364,Pterygium,SYM_01562,Chronic Blurred Vision (Optic Nerve),0.83,0
+DIS_00364,Pterygium,SYM_01566,Chronic Ocular Discharge (Optic Nerve),0.71,0
+DIS_00364,Pterygium,SYM_00019,Shortness of Breath at Rest,0.59,0
+DIS_00365,Optic Neuritis,SYM_01560,Chronic Eye Pain (Retina),0.95,1
+DIS_00365,Optic Neuritis,SYM_01563,Chronic Eye Strain (Optic Nerve),0.83,0
+DIS_00365,Optic Neuritis,SYM_01567,Chronic Floaters (Optic Nerve),0.71,0
+DIS_00365,Optic Neuritis,SYM_00020,Exertional Breathlessness,0.59,0
+DIS_00366,Papilledema,SYM_01561,Chronic Photophobia (Optic Nerve),0.95,1
+DIS_00366,Papilledema,SYM_01564,Chronic Diplopia (Optic Nerve),0.83,0
+DIS_00366,Papilledema,SYM_01568,Chronic Visual Field Loss (Optic Nerve),0.71,0
+DIS_00366,Papilledema,SYM_00021,Expiratory Wheezing,0.59,0
+DIS_00367,Dry Eye Syndrome (Keratoconjunctivitis Sicca),SYM_01562,Chronic Blurred Vision (Optic Nerve),0.95,1
+DIS_00367,Dry Eye Syndrome (Keratoconjunctivitis Sicca),SYM_01565,Chronic Conjunctival Redness (Optic Nerve),0.83,0
+DIS_00367,Dry Eye Syndrome (Keratoconjunctivitis Sicca),SYM_01569,Chronic Grittiness (Optic Nerve),0.71,0
+DIS_00367,Dry Eye Syndrome (Keratoconjunctivitis Sicca),SYM_00022,Pleuritic Chest Pain,0.59,0
+DIS_00368,Allergic Conjunctivitis (Vernal),SYM_01563,Chronic Eye Strain (Optic Nerve),0.95,1
+DIS_00368,Allergic Conjunctivitis (Vernal),SYM_01566,Chronic Ocular Discharge (Optic Nerve),0.83,0
+DIS_00368,Allergic Conjunctivitis (Vernal),SYM_01570,Chronic Eye Pain (Optic Nerve),0.71,0
+DIS_00368,Allergic Conjunctivitis (Vernal),SYM_00023,Stridor,0.59,0
+DIS_00369,Thyroid Eye Disease (Graves Orbitopathy),SYM_01564,Chronic Diplopia (Optic Nerve),0.95,1
+DIS_00369,Thyroid Eye Disease (Graves Orbitopathy),SYM_01567,Chronic Floaters (Optic Nerve),0.83,0
+DIS_00369,Thyroid Eye Disease (Graves Orbitopathy),SYM_01571,Chronic Photophobia (Conjunctiva),0.71,0
+DIS_00369,Thyroid Eye Disease (Graves Orbitopathy),SYM_00024,Orthopnea,0.59,0
+DIS_00370,Keratoconus,SYM_01565,Chronic Conjunctival Redness (Optic Nerve),0.95,1
+DIS_00370,Keratoconus,SYM_01568,Chronic Visual Field Loss (Optic Nerve),0.83,0
+DIS_00370,Keratoconus,SYM_01572,Chronic Blurred Vision (Conjunctiva),0.71,0
+DIS_00370,Keratoconus,SYM_00025,Rapid Shallow Respiration,0.59,0
+DIS_00371,Strabismus (Esotropia),SYM_01566,Chronic Ocular Discharge (Optic Nerve),0.95,1
+DIS_00371,Strabismus (Esotropia),SYM_01569,Chronic Grittiness (Optic Nerve),0.83,0
+DIS_00371,Strabismus (Esotropia),SYM_01573,Chronic Eye Strain (Conjunctiva),0.71,0
+DIS_00371,Strabismus (Esotropia),SYM_00026,Crushing Retrosternal Chest Pain,0.59,0
+DIS_00372,Amblyopia,SYM_01567,Chronic Floaters (Optic Nerve),0.95,1
+DIS_00372,Amblyopia,SYM_01570,Chronic Eye Pain (Optic Nerve),0.83,0
+DIS_00372,Amblyopia,SYM_01574,Chronic Diplopia (Conjunctiva),0.71,0
+DIS_00372,Amblyopia,SYM_00027,Heart Palpitations,0.59,0
+DIS_00373,Presbyopia,SYM_01568,Chronic Visual Field Loss (Optic Nerve),0.95,1
+DIS_00373,Presbyopia,SYM_01571,Chronic Photophobia (Conjunctiva),0.83,0
+DIS_00373,Presbyopia,SYM_01575,Chronic Conjunctival Redness (Conjunctiva),0.71,0
+DIS_00373,Presbyopia,SYM_00028,Syncope / Fainting,0.59,0
+DIS_00374,Vitreous Hemorrhage,SYM_01569,Chronic Grittiness (Optic Nerve),0.95,1
+DIS_00374,Vitreous Hemorrhage,SYM_01572,Chronic Blurred Vision (Conjunctiva),0.83,0
+DIS_00374,Vitreous Hemorrhage,SYM_01576,Chronic Ocular Discharge (Conjunctiva),0.71,0
+DIS_00374,Vitreous Hemorrhage,SYM_00029,Bilateral Ankle Swelling,0.59,0
+DIS_00375,Ocular Migraine,SYM_01570,Chronic Eye Pain (Optic Nerve),0.95,1
+DIS_00375,Ocular Migraine,SYM_01573,Chronic Eye Strain (Conjunctiva),0.83,0
+DIS_00375,Ocular Migraine,SYM_01577,Chronic Floaters (Conjunctiva),0.71,0
+DIS_00375,Ocular Migraine,SYM_00030,Cold Clammy Extremities,0.59,0
+DIS_00376,Acute Bacterial Rhinosinusitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00376,Acute Bacterial Rhinosinusitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00376,Acute Bacterial Rhinosinusitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00376,Acute Bacterial Rhinosinusitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00377,Chronic Hyperplastic Sinusitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00377,Chronic Hyperplastic Sinusitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00377,Chronic Hyperplastic Sinusitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00377,Chronic Hyperplastic Sinusitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00378,Allergic Rhinitis (Seasonal Pollen),SYM_00010,Generalized Malaise,0.95,1
+DIS_00378,Allergic Rhinitis (Seasonal Pollen),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00378,Allergic Rhinitis (Seasonal Pollen),SYM_00002,Low Grade Fever,0.71,0
+DIS_00378,Allergic Rhinitis (Seasonal Pollen),SYM_00009,Loss of Appetite,0.59,0
+DIS_00379,Vasomotor Rhinitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00379,Vasomotor Rhinitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00379,Vasomotor Rhinitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00379,Vasomotor Rhinitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00380,Nasal Polyposis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00380,Nasal Polyposis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00380,Nasal Polyposis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00380,Nasal Polyposis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00381,Acute Otitis Media (Suppurative),SYM_00010,Generalized Malaise,0.95,1
+DIS_00381,Acute Otitis Media (Suppurative),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00381,Acute Otitis Media (Suppurative),SYM_00002,Low Grade Fever,0.71,0
+DIS_00381,Acute Otitis Media (Suppurative),SYM_00009,Loss of Appetite,0.59,0
+DIS_00382,Otitis Media with Effusion,SYM_00010,Generalized Malaise,0.95,1
+DIS_00382,Otitis Media with Effusion,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00382,Otitis Media with Effusion,SYM_00002,Low Grade Fever,0.71,0
+DIS_00382,Otitis Media with Effusion,SYM_00009,Loss of Appetite,0.59,0
+DIS_00383,Otitis Externa (Swimmer's Ear),SYM_00010,Generalized Malaise,0.95,1
+DIS_00383,Otitis Externa (Swimmer's Ear),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00383,Otitis Externa (Swimmer's Ear),SYM_00002,Low Grade Fever,0.71,0
+DIS_00383,Otitis Externa (Swimmer's Ear),SYM_00009,Loss of Appetite,0.59,0
+DIS_00384,Malignant Otitis Externa,SYM_00010,Generalized Malaise,0.95,1
+DIS_00384,Malignant Otitis Externa,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00384,Malignant Otitis Externa,SYM_00002,Low Grade Fever,0.71,0
+DIS_00384,Malignant Otitis Externa,SYM_00009,Loss of Appetite,0.59,0
+DIS_00385,Tympanic Membrane Perforation,SYM_00010,Generalized Malaise,0.95,1
+DIS_00385,Tympanic Membrane Perforation,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00385,Tympanic Membrane Perforation,SYM_00002,Low Grade Fever,0.71,0
+DIS_00385,Tympanic Membrane Perforation,SYM_00009,Loss of Appetite,0.59,0
+DIS_00386,Otosclerosis (Conductive Loss),SYM_00010,Generalized Malaise,0.95,1
+DIS_00386,Otosclerosis (Conductive Loss),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00386,Otosclerosis (Conductive Loss),SYM_00002,Low Grade Fever,0.71,0
+DIS_00386,Otosclerosis (Conductive Loss),SYM_00009,Loss of Appetite,0.59,0
+DIS_00387,Sensorineural Hearing Loss (Sudden),SYM_00010,Generalized Malaise,0.95,1
+DIS_00387,Sensorineural Hearing Loss (Sudden),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00387,Sensorineural Hearing Loss (Sudden),SYM_00002,Low Grade Fever,0.71,0
+DIS_00387,Sensorineural Hearing Loss (Sudden),SYM_00009,Loss of Appetite,0.59,0
+DIS_00388,Noise-Induced Hearing Loss,SYM_00010,Generalized Malaise,0.95,1
+DIS_00388,Noise-Induced Hearing Loss,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00388,Noise-Induced Hearing Loss,SYM_00002,Low Grade Fever,0.71,0
+DIS_00388,Noise-Induced Hearing Loss,SYM_00009,Loss of Appetite,0.59,0
+DIS_00389,Presbycusis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00389,Presbycusis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00389,Presbycusis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00389,Presbycusis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00390,Acute Viral Pharyngitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00390,Acute Viral Pharyngitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00390,Acute Viral Pharyngitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00390,Acute Viral Pharyngitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00391,Streptococcal Pharyngitis (Strep Throat),SYM_00010,Generalized Malaise,0.95,1
+DIS_00391,Streptococcal Pharyngitis (Strep Throat),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00391,Streptococcal Pharyngitis (Strep Throat),SYM_00002,Low Grade Fever,0.71,0
+DIS_00391,Streptococcal Pharyngitis (Strep Throat),SYM_00009,Loss of Appetite,0.59,0
+DIS_00392,Peritonsillar Abscess (Quinsy),SYM_00010,Generalized Malaise,0.95,1
+DIS_00392,Peritonsillar Abscess (Quinsy),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00392,Peritonsillar Abscess (Quinsy),SYM_00002,Low Grade Fever,0.71,0
+DIS_00392,Peritonsillar Abscess (Quinsy),SYM_00009,Loss of Appetite,0.59,0
+DIS_00393,Infectious Mononucleosis Tonsillitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00393,Infectious Mononucleosis Tonsillitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00393,Infectious Mononucleosis Tonsillitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00393,Infectious Mononucleosis Tonsillitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00394,Acute Laryngitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00394,Acute Laryngitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00394,Acute Laryngitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00394,Acute Laryngitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00395,Vocal Cord Nodules (Singer's Nodes),SYM_00010,Generalized Malaise,0.95,1
+DIS_00395,Vocal Cord Nodules (Singer's Nodes),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00395,Vocal Cord Nodules (Singer's Nodes),SYM_00002,Low Grade Fever,0.71,0
+DIS_00395,Vocal Cord Nodules (Singer's Nodes),SYM_00009,Loss of Appetite,0.59,0
+DIS_00396,Vocal Cord Polyp,SYM_00010,Generalized Malaise,0.95,1
+DIS_00396,Vocal Cord Polyp,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00396,Vocal Cord Polyp,SYM_00002,Low Grade Fever,0.71,0
+DIS_00396,Vocal Cord Polyp,SYM_00009,Loss of Appetite,0.59,0
+DIS_00397,Laryngeal Carcinoma (Early),SYM_00010,Generalized Malaise,0.95,1
+DIS_00397,Laryngeal Carcinoma (Early),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00397,Laryngeal Carcinoma (Early),SYM_00002,Low Grade Fever,0.71,0
+DIS_00397,Laryngeal Carcinoma (Early),SYM_00009,Loss of Appetite,0.59,0
+DIS_00398,Submandibular Sialadenitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00398,Submandibular Sialadenitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00398,Submandibular Sialadenitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00398,Submandibular Sialadenitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00399,Parotid Sialolithiasis (Salivary Stone),SYM_00010,Generalized Malaise,0.95,1
+DIS_00399,Parotid Sialolithiasis (Salivary Stone),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00399,Parotid Sialolithiasis (Salivary Stone),SYM_00002,Low Grade Fever,0.71,0
+DIS_00399,Parotid Sialolithiasis (Salivary Stone),SYM_00009,Loss of Appetite,0.59,0
+DIS_00400,Juvenile Nasopharyngeal Angiofibroma,SYM_00010,Generalized Malaise,0.95,1
+DIS_00400,Juvenile Nasopharyngeal Angiofibroma,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00400,Juvenile Nasopharyngeal Angiofibroma,SYM_00002,Low Grade Fever,0.71,0
+DIS_00400,Juvenile Nasopharyngeal Angiofibroma,SYM_00009,Loss of Appetite,0.59,0
+DIS_00401,Deviated Nasal Septum with Obstruction,SYM_00010,Generalized Malaise,0.95,1
+DIS_00401,Deviated Nasal Septum with Obstruction,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00401,Deviated Nasal Septum with Obstruction,SYM_00002,Low Grade Fever,0.71,0
+DIS_00401,Deviated Nasal Septum with Obstruction,SYM_00009,Loss of Appetite,0.59,0
+DIS_00402,Labyrinthitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00402,Labyrinthitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00402,Labyrinthitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00402,Labyrinthitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00403,Eustachian Tube Dysfunction,SYM_00010,Generalized Malaise,0.95,1
+DIS_00403,Eustachian Tube Dysfunction,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00403,Eustachian Tube Dysfunction,SYM_00002,Low Grade Fever,0.71,0
+DIS_00403,Eustachian Tube Dysfunction,SYM_00009,Loss of Appetite,0.59,0
+DIS_00404,Epiglottitis (Acute),SYM_00010,Generalized Malaise,0.95,1
+DIS_00404,Epiglottitis (Acute),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00404,Epiglottitis (Acute),SYM_00002,Low Grade Fever,0.71,0
+DIS_00404,Epiglottitis (Acute),SYM_00009,Loss of Appetite,0.59,0
+DIS_00405,Ludwig Angina,SYM_00010,Generalized Malaise,0.95,1
+DIS_00405,Ludwig Angina,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00405,Ludwig Angina,SYM_00002,Low Grade Fever,0.71,0
+DIS_00405,Ludwig Angina,SYM_00009,Loss of Appetite,0.59,0
+DIS_00406,Lumbar Herniated Intervertebral Disc,SYM_00010,Generalized Malaise,0.95,1
+DIS_00406,Lumbar Herniated Intervertebral Disc,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00406,Lumbar Herniated Intervertebral Disc,SYM_00002,Low Grade Fever,0.71,0
+DIS_00406,Lumbar Herniated Intervertebral Disc,SYM_00009,Loss of Appetite,0.59,0
+DIS_00407,Cervical Spondylotic Myelopathy,SYM_00010,Generalized Malaise,0.95,1
+DIS_00407,Cervical Spondylotic Myelopathy,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00407,Cervical Spondylotic Myelopathy,SYM_00002,Low Grade Fever,0.71,0
+DIS_00407,Cervical Spondylotic Myelopathy,SYM_00009,Loss of Appetite,0.59,0
+DIS_00408,Lumbar Spinal Stenosis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00408,Lumbar Spinal Stenosis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00408,Lumbar Spinal Stenosis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00408,Lumbar Spinal Stenosis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00409,Spondylolisthesis (Isthmic),SYM_00010,Generalized Malaise,0.95,1
+DIS_00409,Spondylolisthesis (Isthmic),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00409,Spondylolisthesis (Isthmic),SYM_00002,Low Grade Fever,0.71,0
+DIS_00409,Spondylolisthesis (Isthmic),SYM_00009,Loss of Appetite,0.59,0
+DIS_00410,Rotator Cuff Tear (Supraspinatus),SYM_00010,Generalized Malaise,0.95,1
+DIS_00410,Rotator Cuff Tear (Supraspinatus),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00410,Rotator Cuff Tear (Supraspinatus),SYM_00002,Low Grade Fever,0.71,0
+DIS_00410,Rotator Cuff Tear (Supraspinatus),SYM_00009,Loss of Appetite,0.59,0
+DIS_00411,Adhesive Capsulitis (Frozen Shoulder),SYM_00010,Generalized Malaise,0.95,1
+DIS_00411,Adhesive Capsulitis (Frozen Shoulder),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00411,Adhesive Capsulitis (Frozen Shoulder),SYM_00002,Low Grade Fever,0.71,0
+DIS_00411,Adhesive Capsulitis (Frozen Shoulder),SYM_00009,Loss of Appetite,0.59,0
+DIS_00412,Subacromial Impingement Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00412,Subacromial Impingement Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00412,Subacromial Impingement Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00412,Subacromial Impingement Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00413,Biceps Tendonitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00413,Biceps Tendonitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00413,Biceps Tendonitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00413,Biceps Tendonitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00414,Lateral Epicondylitis (Tennis Elbow),SYM_00010,Generalized Malaise,0.95,1
+DIS_00414,Lateral Epicondylitis (Tennis Elbow),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00414,Lateral Epicondylitis (Tennis Elbow),SYM_00002,Low Grade Fever,0.71,0
+DIS_00414,Lateral Epicondylitis (Tennis Elbow),SYM_00009,Loss of Appetite,0.59,0
+DIS_00415,Medial Epicondylitis (Golfer's Elbow),SYM_00010,Generalized Malaise,0.95,1
+DIS_00415,Medial Epicondylitis (Golfer's Elbow),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00415,Medial Epicondylitis (Golfer's Elbow),SYM_00002,Low Grade Fever,0.71,0
+DIS_00415,Medial Epicondylitis (Golfer's Elbow),SYM_00009,Loss of Appetite,0.59,0
+DIS_00416,Osgood-Schlatter Disease,SYM_00010,Generalized Malaise,0.95,1
+DIS_00416,Osgood-Schlatter Disease,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00416,Osgood-Schlatter Disease,SYM_00002,Low Grade Fever,0.71,0
+DIS_00416,Osgood-Schlatter Disease,SYM_00009,Loss of Appetite,0.59,0
+DIS_00417,Patellofemoral Pain Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00417,Patellofemoral Pain Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00417,Patellofemoral Pain Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00417,Patellofemoral Pain Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00418,Meniscal Tear (Medial / Lateral),SYM_00010,Generalized Malaise,0.95,1
+DIS_00418,Meniscal Tear (Medial / Lateral),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00418,Meniscal Tear (Medial / Lateral),SYM_00002,Low Grade Fever,0.71,0
+DIS_00418,Meniscal Tear (Medial / Lateral),SYM_00009,Loss of Appetite,0.59,0
+DIS_00419,Anterior Cruciate Ligament (ACL) Tear,SYM_00010,Generalized Malaise,0.95,1
+DIS_00419,Anterior Cruciate Ligament (ACL) Tear,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00419,Anterior Cruciate Ligament (ACL) Tear,SYM_00002,Low Grade Fever,0.71,0
+DIS_00419,Anterior Cruciate Ligament (ACL) Tear,SYM_00009,Loss of Appetite,0.59,0
+DIS_00420,Plantar Fasciitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00420,Plantar Fasciitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00420,Plantar Fasciitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00420,Plantar Fasciitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00421,Achilles Tendinopathy,SYM_00010,Generalized Malaise,0.95,1
+DIS_00421,Achilles Tendinopathy,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00421,Achilles Tendinopathy,SYM_00002,Low Grade Fever,0.71,0
+DIS_00421,Achilles Tendinopathy,SYM_00009,Loss of Appetite,0.59,0
+DIS_00422,De Quervain Tenosynovitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00422,De Quervain Tenosynovitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00422,De Quervain Tenosynovitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00422,De Quervain Tenosynovitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00423,Dupuytren Contracture,SYM_00010,Generalized Malaise,0.95,1
+DIS_00423,Dupuytren Contracture,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00423,Dupuytren Contracture,SYM_00002,Low Grade Fever,0.71,0
+DIS_00423,Dupuytren Contracture,SYM_00009,Loss of Appetite,0.59,0
+DIS_00424,Trigger Finger (Stenosing),SYM_00010,Generalized Malaise,0.95,1
+DIS_00424,Trigger Finger (Stenosing),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00424,Trigger Finger (Stenosing),SYM_00002,Low Grade Fever,0.71,0
+DIS_00424,Trigger Finger (Stenosing),SYM_00009,Loss of Appetite,0.59,0
+DIS_00425,Trochanteric Bursitis (Greater Trochanter),SYM_00010,Generalized Malaise,0.95,1
+DIS_00425,Trochanteric Bursitis (Greater Trochanter),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00425,Trochanteric Bursitis (Greater Trochanter),SYM_00002,Low Grade Fever,0.71,0
+DIS_00425,Trochanteric Bursitis (Greater Trochanter),SYM_00009,Loss of Appetite,0.59,0
+DIS_00426,Morton Neuroma,SYM_00010,Generalized Malaise,0.95,1
+DIS_00426,Morton Neuroma,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00426,Morton Neuroma,SYM_00002,Low Grade Fever,0.71,0
+DIS_00426,Morton Neuroma,SYM_00009,Loss of Appetite,0.59,0
+DIS_00427,Hallux Valgus (Bunion),SYM_00010,Generalized Malaise,0.95,1
+DIS_00427,Hallux Valgus (Bunion),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00427,Hallux Valgus (Bunion),SYM_00002,Low Grade Fever,0.71,0
+DIS_00427,Hallux Valgus (Bunion),SYM_00009,Loss of Appetite,0.59,0
+DIS_00428,Scoliosis (Adolescent Idiopathic),SYM_00010,Generalized Malaise,0.95,1
+DIS_00428,Scoliosis (Adolescent Idiopathic),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00428,Scoliosis (Adolescent Idiopathic),SYM_00002,Low Grade Fever,0.71,0
+DIS_00428,Scoliosis (Adolescent Idiopathic),SYM_00009,Loss of Appetite,0.59,0
+DIS_00429,Kyphosis (Scheuermann Disease),SYM_00010,Generalized Malaise,0.95,1
+DIS_00429,Kyphosis (Scheuermann Disease),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00429,Kyphosis (Scheuermann Disease),SYM_00002,Low Grade Fever,0.71,0
+DIS_00429,Kyphosis (Scheuermann Disease),SYM_00009,Loss of Appetite,0.59,0
+DIS_00430,Avascular Necrosis of Femoral Head,SYM_00010,Generalized Malaise,0.95,1
+DIS_00430,Avascular Necrosis of Femoral Head,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00430,Avascular Necrosis of Femoral Head,SYM_00002,Low Grade Fever,0.71,0
+DIS_00430,Avascular Necrosis of Femoral Head,SYM_00009,Loss of Appetite,0.59,0
+DIS_00431,Stress Fracture (Tibial/Metatarsal),SYM_00010,Generalized Malaise,0.95,1
+DIS_00431,Stress Fracture (Tibial/Metatarsal),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00431,Stress Fracture (Tibial/Metatarsal),SYM_00002,Low Grade Fever,0.71,0
+DIS_00431,Stress Fracture (Tibial/Metatarsal),SYM_00009,Loss of Appetite,0.59,0
+DIS_00432,Compartment Syndrome (Chronic Exertional),SYM_00010,Generalized Malaise,0.95,1
+DIS_00432,Compartment Syndrome (Chronic Exertional),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00432,Compartment Syndrome (Chronic Exertional),SYM_00002,Low Grade Fever,0.71,0
+DIS_00432,Compartment Syndrome (Chronic Exertional),SYM_00009,Loss of Appetite,0.59,0
+DIS_00433,Iliotibial Band Friction Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00433,Iliotibial Band Friction Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00433,Iliotibial Band Friction Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00433,Iliotibial Band Friction Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00434,Piriformis Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00434,Piriformis Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00434,Piriformis Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00434,Piriformis Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00435,Thoracic Outlet Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00435,Thoracic Outlet Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00435,Thoracic Outlet Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00435,Thoracic Outlet Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00436,Benign Prostatic Hyperplasia (BPH),SYM_00010,Generalized Malaise,0.95,1
+DIS_00436,Benign Prostatic Hyperplasia (BPH),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00436,Benign Prostatic Hyperplasia (BPH),SYM_00002,Low Grade Fever,0.71,0
+DIS_00436,Benign Prostatic Hyperplasia (BPH),SYM_00009,Loss of Appetite,0.59,0
+DIS_00437,Acute Bacterial Prostatitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00437,Acute Bacterial Prostatitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00437,Acute Bacterial Prostatitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00437,Acute Bacterial Prostatitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00438,Chronic Nonbacterial Prostatitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00438,Chronic Nonbacterial Prostatitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00438,Chronic Nonbacterial Prostatitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00438,Chronic Nonbacterial Prostatitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00439,Prostate Adenocarcinoma (Localized),SYM_00010,Generalized Malaise,0.95,1
+DIS_00439,Prostate Adenocarcinoma (Localized),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00439,Prostate Adenocarcinoma (Localized),SYM_00002,Low Grade Fever,0.71,0
+DIS_00439,Prostate Adenocarcinoma (Localized),SYM_00009,Loss of Appetite,0.59,0
+DIS_00440,Urethral Stricture Disease,SYM_00010,Generalized Malaise,0.95,1
+DIS_00440,Urethral Stricture Disease,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00440,Urethral Stricture Disease,SYM_00002,Low Grade Fever,0.71,0
+DIS_00440,Urethral Stricture Disease,SYM_00009,Loss of Appetite,0.59,0
+DIS_00441,Testicular Torsion (Acute Ischemic),SYM_00010,Generalized Malaise,0.95,1
+DIS_00441,Testicular Torsion (Acute Ischemic),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00441,Testicular Torsion (Acute Ischemic),SYM_00002,Low Grade Fever,0.71,0
+DIS_00441,Testicular Torsion (Acute Ischemic),SYM_00009,Loss of Appetite,0.59,0
+DIS_00442,Epididymo-Orchitis (Chlamydial),SYM_00010,Generalized Malaise,0.95,1
+DIS_00442,Epididymo-Orchitis (Chlamydial),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00442,Epididymo-Orchitis (Chlamydial),SYM_00002,Low Grade Fever,0.71,0
+DIS_00442,Epididymo-Orchitis (Chlamydial),SYM_00009,Loss of Appetite,0.59,0
+DIS_00443,Hydrocele of Tunica Vaginalis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00443,Hydrocele of Tunica Vaginalis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00443,Hydrocele of Tunica Vaginalis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00443,Hydrocele of Tunica Vaginalis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00444,Varicocele (Grade III Left-Sided),SYM_00010,Generalized Malaise,0.95,1
+DIS_00444,Varicocele (Grade III Left-Sided),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00444,Varicocele (Grade III Left-Sided),SYM_00002,Low Grade Fever,0.71,0
+DIS_00444,Varicocele (Grade III Left-Sided),SYM_00009,Loss of Appetite,0.59,0
+DIS_00445,Spermatocele,SYM_00010,Generalized Malaise,0.95,1
+DIS_00445,Spermatocele,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00445,Spermatocele,SYM_00002,Low Grade Fever,0.71,0
+DIS_00445,Spermatocele,SYM_00009,Loss of Appetite,0.59,0
+DIS_00446,Erectile Dysfunction (Vasculogenic),SYM_00010,Generalized Malaise,0.95,1
+DIS_00446,Erectile Dysfunction (Vasculogenic),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00446,Erectile Dysfunction (Vasculogenic),SYM_00002,Low Grade Fever,0.71,0
+DIS_00446,Erectile Dysfunction (Vasculogenic),SYM_00009,Loss of Appetite,0.59,0
+DIS_00447,Peyronie Disease,SYM_00010,Generalized Malaise,0.95,1
+DIS_00447,Peyronie Disease,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00447,Peyronie Disease,SYM_00002,Low Grade Fever,0.71,0
+DIS_00447,Peyronie Disease,SYM_00009,Loss of Appetite,0.59,0
+DIS_00448,Priapism (Ischemic),SYM_00010,Generalized Malaise,0.95,1
+DIS_00448,Priapism (Ischemic),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00448,Priapism (Ischemic),SYM_00002,Low Grade Fever,0.71,0
+DIS_00448,Priapism (Ischemic),SYM_00009,Loss of Appetite,0.59,0
+DIS_00449,Interstitial Cystitis (Painful Bladder),SYM_00010,Generalized Malaise,0.95,1
+DIS_00449,Interstitial Cystitis (Painful Bladder),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00449,Interstitial Cystitis (Painful Bladder),SYM_00002,Low Grade Fever,0.71,0
+DIS_00449,Interstitial Cystitis (Painful Bladder),SYM_00009,Loss of Appetite,0.59,0
+DIS_00450,Overactive Bladder Syndrome (OAB),SYM_00010,Generalized Malaise,0.95,1
+DIS_00450,Overactive Bladder Syndrome (OAB),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00450,Overactive Bladder Syndrome (OAB),SYM_00002,Low Grade Fever,0.71,0
+DIS_00450,Overactive Bladder Syndrome (OAB),SYM_00009,Loss of Appetite,0.59,0
+DIS_00451,Stress Urinary Incontinence,SYM_00010,Generalized Malaise,0.95,1
+DIS_00451,Stress Urinary Incontinence,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00451,Stress Urinary Incontinence,SYM_00002,Low Grade Fever,0.71,0
+DIS_00451,Stress Urinary Incontinence,SYM_00009,Loss of Appetite,0.59,0
+DIS_00452,Urge Incontinence,SYM_00010,Generalized Malaise,0.95,1
+DIS_00452,Urge Incontinence,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00452,Urge Incontinence,SYM_00002,Low Grade Fever,0.71,0
+DIS_00452,Urge Incontinence,SYM_00009,Loss of Appetite,0.59,0
+DIS_00453,Vesicoureteral Reflux,SYM_00010,Generalized Malaise,0.95,1
+DIS_00453,Vesicoureteral Reflux,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00453,Vesicoureteral Reflux,SYM_00002,Low Grade Fever,0.71,0
+DIS_00453,Vesicoureteral Reflux,SYM_00009,Loss of Appetite,0.59,0
+DIS_00454,Phimosis & Paraphimosis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00454,Phimosis & Paraphimosis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00454,Phimosis & Paraphimosis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00454,Phimosis & Paraphimosis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00455,Balano-Posthitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00455,Balano-Posthitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00455,Balano-Posthitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00455,Balano-Posthitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00456,Fournier Gangrene,SYM_00010,Generalized Malaise,0.95,1
+DIS_00456,Fournier Gangrene,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00456,Fournier Gangrene,SYM_00002,Low Grade Fever,0.71,0
+DIS_00456,Fournier Gangrene,SYM_00009,Loss of Appetite,0.59,0
+DIS_00457,Neurogenic Bladder Dysfunction,SYM_00010,Generalized Malaise,0.95,1
+DIS_00457,Neurogenic Bladder Dysfunction,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00457,Neurogenic Bladder Dysfunction,SYM_00002,Low Grade Fever,0.71,0
+DIS_00457,Neurogenic Bladder Dysfunction,SYM_00009,Loss of Appetite,0.59,0
+DIS_00458,Ureteral Calculus with Colic,SYM_00010,Generalized Malaise,0.95,1
+DIS_00458,Ureteral Calculus with Colic,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00458,Ureteral Calculus with Colic,SYM_00002,Low Grade Fever,0.71,0
+DIS_00458,Ureteral Calculus with Colic,SYM_00009,Loss of Appetite,0.59,0
+DIS_00459,Bladder Diverticulum,SYM_00010,Generalized Malaise,0.95,1
+DIS_00459,Bladder Diverticulum,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00459,Bladder Diverticulum,SYM_00002,Low Grade Fever,0.71,0
+DIS_00459,Bladder Diverticulum,SYM_00009,Loss of Appetite,0.59,0
+DIS_00460,Hypospadias,SYM_00010,Generalized Malaise,0.95,1
+DIS_00460,Hypospadias,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00460,Hypospadias,SYM_00002,Low Grade Fever,0.71,0
+DIS_00460,Hypospadias,SYM_00009,Loss of Appetite,0.59,0
+DIS_00461,Cryptorchidism (Undescended Testis),SYM_00010,Generalized Malaise,0.95,1
+DIS_00461,Cryptorchidism (Undescended Testis),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00461,Cryptorchidism (Undescended Testis),SYM_00002,Low Grade Fever,0.71,0
+DIS_00461,Cryptorchidism (Undescended Testis),SYM_00009,Loss of Appetite,0.59,0
+DIS_00462,Seminal Vesiculitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00462,Seminal Vesiculitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00462,Seminal Vesiculitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00462,Seminal Vesiculitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00463,Retrograde Ejaculation,SYM_00010,Generalized Malaise,0.95,1
+DIS_00463,Retrograde Ejaculation,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00463,Retrograde Ejaculation,SYM_00002,Low Grade Fever,0.71,0
+DIS_00463,Retrograde Ejaculation,SYM_00009,Loss of Appetite,0.59,0
+DIS_00464,Urethrocutaneous Fistula,SYM_00010,Generalized Malaise,0.95,1
+DIS_00464,Urethrocutaneous Fistula,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00464,Urethrocutaneous Fistula,SYM_00002,Low Grade Fever,0.71,0
+DIS_00464,Urethrocutaneous Fistula,SYM_00009,Loss of Appetite,0.59,0
+DIS_00465,Bladder Neck Contracture,SYM_00010,Generalized Malaise,0.95,1
+DIS_00465,Bladder Neck Contracture,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00465,Bladder Neck Contracture,SYM_00002,Low Grade Fever,0.71,0
+DIS_00465,Bladder Neck Contracture,SYM_00009,Loss of Appetite,0.59,0
+DIS_00466,Endometriosis (Ovarian & Peritoneal),SYM_00010,Generalized Malaise,0.95,1
+DIS_00466,Endometriosis (Ovarian & Peritoneal),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00466,Endometriosis (Ovarian & Peritoneal),SYM_00002,Low Grade Fever,0.71,0
+DIS_00466,Endometriosis (Ovarian & Peritoneal),SYM_00009,Loss of Appetite,0.59,0
+DIS_00467,Adenomyosis Uteri,SYM_00010,Generalized Malaise,0.95,1
+DIS_00467,Adenomyosis Uteri,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00467,Adenomyosis Uteri,SYM_00002,Low Grade Fever,0.71,0
+DIS_00467,Adenomyosis Uteri,SYM_00009,Loss of Appetite,0.59,0
+DIS_00468,Uterine Leiomyoma (Fibroids),SYM_00010,Generalized Malaise,0.95,1
+DIS_00468,Uterine Leiomyoma (Fibroids),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00468,Uterine Leiomyoma (Fibroids),SYM_00002,Low Grade Fever,0.71,0
+DIS_00468,Uterine Leiomyoma (Fibroids),SYM_00009,Loss of Appetite,0.59,0
+DIS_00469,Endometrial Hyperplasia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00469,Endometrial Hyperplasia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00469,Endometrial Hyperplasia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00469,Endometrial Hyperplasia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00470,Cervical Intraepithelial Neoplasia (CIN),SYM_00010,Generalized Malaise,0.95,1
+DIS_00470,Cervical Intraepithelial Neoplasia (CIN),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00470,Cervical Intraepithelial Neoplasia (CIN),SYM_00002,Low Grade Fever,0.71,0
+DIS_00470,Cervical Intraepithelial Neoplasia (CIN),SYM_00009,Loss of Appetite,0.59,0
+DIS_00471,Bacterial Vaginosis (Gardnerella),SYM_00010,Generalized Malaise,0.95,1
+DIS_00471,Bacterial Vaginosis (Gardnerella),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00471,Bacterial Vaginosis (Gardnerella),SYM_00002,Low Grade Fever,0.71,0
+DIS_00471,Bacterial Vaginosis (Gardnerella),SYM_00009,Loss of Appetite,0.59,0
+DIS_00472,Trichomoniasis Vaginitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00472,Trichomoniasis Vaginitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00472,Trichomoniasis Vaginitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00472,Trichomoniasis Vaginitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00473,Vulvovaginal Candidiasis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00473,Vulvovaginal Candidiasis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00473,Vulvovaginal Candidiasis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00473,Vulvovaginal Candidiasis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00474,Pelvic Inflammatory Disease (PID),SYM_00010,Generalized Malaise,0.95,1
+DIS_00474,Pelvic Inflammatory Disease (PID),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00474,Pelvic Inflammatory Disease (PID),SYM_00002,Low Grade Fever,0.71,0
+DIS_00474,Pelvic Inflammatory Disease (PID),SYM_00009,Loss of Appetite,0.59,0
+DIS_00475,Tubo-Ovarian Abscess,SYM_00010,Generalized Malaise,0.95,1
+DIS_00475,Tubo-Ovarian Abscess,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00475,Tubo-Ovarian Abscess,SYM_00002,Low Grade Fever,0.71,0
+DIS_00475,Tubo-Ovarian Abscess,SYM_00009,Loss of Appetite,0.59,0
+DIS_00476,Ectopic Pregnancy (Tubal),SYM_00010,Generalized Malaise,0.95,1
+DIS_00476,Ectopic Pregnancy (Tubal),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00476,Ectopic Pregnancy (Tubal),SYM_00002,Low Grade Fever,0.71,0
+DIS_00476,Ectopic Pregnancy (Tubal),SYM_00009,Loss of Appetite,0.59,0
+DIS_00477,Preeclampsia with Severe Features,SYM_00010,Generalized Malaise,0.95,1
+DIS_00477,Preeclampsia with Severe Features,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00477,Preeclampsia with Severe Features,SYM_00002,Low Grade Fever,0.71,0
+DIS_00477,Preeclampsia with Severe Features,SYM_00009,Loss of Appetite,0.59,0
+DIS_00478,Gestational Diabetes Mellitus,SYM_00010,Generalized Malaise,0.95,1
+DIS_00478,Gestational Diabetes Mellitus,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00478,Gestational Diabetes Mellitus,SYM_00002,Low Grade Fever,0.71,0
+DIS_00478,Gestational Diabetes Mellitus,SYM_00009,Loss of Appetite,0.59,0
+DIS_00479,Hyperemesis Gravidarum,SYM_00010,Generalized Malaise,0.95,1
+DIS_00479,Hyperemesis Gravidarum,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00479,Hyperemesis Gravidarum,SYM_00002,Low Grade Fever,0.71,0
+DIS_00479,Hyperemesis Gravidarum,SYM_00009,Loss of Appetite,0.59,0
+DIS_00480,Placenta Previa,SYM_00010,Generalized Malaise,0.95,1
+DIS_00480,Placenta Previa,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00480,Placenta Previa,SYM_00002,Low Grade Fever,0.71,0
+DIS_00480,Placenta Previa,SYM_00009,Loss of Appetite,0.59,0
+DIS_00481,Placental Abruption,SYM_00010,Generalized Malaise,0.95,1
+DIS_00481,Placental Abruption,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00481,Placental Abruption,SYM_00002,Low Grade Fever,0.71,0
+DIS_00481,Placental Abruption,SYM_00009,Loss of Appetite,0.59,0
+DIS_00482,Postpartum Hemorrhage,SYM_00010,Generalized Malaise,0.95,1
+DIS_00482,Postpartum Hemorrhage,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00482,Postpartum Hemorrhage,SYM_00002,Low Grade Fever,0.71,0
+DIS_00482,Postpartum Hemorrhage,SYM_00009,Loss of Appetite,0.59,0
+DIS_00483,Postpartum Depression,SYM_00010,Generalized Malaise,0.95,1
+DIS_00483,Postpartum Depression,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00483,Postpartum Depression,SYM_00002,Low Grade Fever,0.71,0
+DIS_00483,Postpartum Depression,SYM_00009,Loss of Appetite,0.59,0
+DIS_00484,Ovarian Torsion (Acute),SYM_00010,Generalized Malaise,0.95,1
+DIS_00484,Ovarian Torsion (Acute),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00484,Ovarian Torsion (Acute),SYM_00002,Low Grade Fever,0.71,0
+DIS_00484,Ovarian Torsion (Acute),SYM_00009,Loss of Appetite,0.59,0
+DIS_00485,Polycystic Ovaries (Gynecological),SYM_00010,Generalized Malaise,0.95,1
+DIS_00485,Polycystic Ovaries (Gynecological),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00485,Polycystic Ovaries (Gynecological),SYM_00002,Low Grade Fever,0.71,0
+DIS_00485,Polycystic Ovaries (Gynecological),SYM_00009,Loss of Appetite,0.59,0
+DIS_00486,Primary Dysmenorrhea,SYM_00010,Generalized Malaise,0.95,1
+DIS_00486,Primary Dysmenorrhea,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00486,Primary Dysmenorrhea,SYM_00002,Low Grade Fever,0.71,0
+DIS_00486,Primary Dysmenorrhea,SYM_00009,Loss of Appetite,0.59,0
+DIS_00487,Premature Ovarian Insufficiency,SYM_00010,Generalized Malaise,0.95,1
+DIS_00487,Premature Ovarian Insufficiency,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00487,Premature Ovarian Insufficiency,SYM_00002,Low Grade Fever,0.71,0
+DIS_00487,Premature Ovarian Insufficiency,SYM_00009,Loss of Appetite,0.59,0
+DIS_00488,Menopause Transition Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00488,Menopause Transition Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00488,Menopause Transition Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00488,Menopause Transition Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00489,Genitourinary Syndrome of Menopause (GSM),SYM_00010,Generalized Malaise,0.95,1
+DIS_00489,Genitourinary Syndrome of Menopause (GSM),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00489,Genitourinary Syndrome of Menopause (GSM),SYM_00002,Low Grade Fever,0.71,0
+DIS_00489,Genitourinary Syndrome of Menopause (GSM),SYM_00009,Loss of Appetite,0.59,0
+DIS_00490,Bartholin Gland Abscess,SYM_00010,Generalized Malaise,0.95,1
+DIS_00490,Bartholin Gland Abscess,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00490,Bartholin Gland Abscess,SYM_00002,Low Grade Fever,0.71,0
+DIS_00490,Bartholin Gland Abscess,SYM_00009,Loss of Appetite,0.59,0
+DIS_00491,Uterine Prolapse (Pelvic Organ),SYM_00010,Generalized Malaise,0.95,1
+DIS_00491,Uterine Prolapse (Pelvic Organ),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00491,Uterine Prolapse (Pelvic Organ),SYM_00002,Low Grade Fever,0.71,0
+DIS_00491,Uterine Prolapse (Pelvic Organ),SYM_00009,Loss of Appetite,0.59,0
+DIS_00492,Cystocele,SYM_00010,Generalized Malaise,0.95,1
+DIS_00492,Cystocele,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00492,Cystocele,SYM_00002,Low Grade Fever,0.71,0
+DIS_00492,Cystocele,SYM_00009,Loss of Appetite,0.59,0
+DIS_00493,Rectocele,SYM_00010,Generalized Malaise,0.95,1
+DIS_00493,Rectocele,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00493,Rectocele,SYM_00002,Low Grade Fever,0.71,0
+DIS_00493,Rectocele,SYM_00009,Loss of Appetite,0.59,0
+DIS_00494,Asherman Syndrome (Intrauterine Adhesions),SYM_00010,Generalized Malaise,0.95,1
+DIS_00494,Asherman Syndrome (Intrauterine Adhesions),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00494,Asherman Syndrome (Intrauterine Adhesions),SYM_00002,Low Grade Fever,0.71,0
+DIS_00494,Asherman Syndrome (Intrauterine Adhesions),SYM_00009,Loss of Appetite,0.59,0
+DIS_00495,Luteal Phase Deficiency,SYM_00010,Generalized Malaise,0.95,1
+DIS_00495,Luteal Phase Deficiency,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00495,Luteal Phase Deficiency,SYM_00002,Low Grade Fever,0.71,0
+DIS_00495,Luteal Phase Deficiency,SYM_00009,Loss of Appetite,0.59,0
+DIS_00496,Down Syndrome (Trisomy 21),SYM_00010,Generalized Malaise,0.95,1
+DIS_00496,Down Syndrome (Trisomy 21),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00496,Down Syndrome (Trisomy 21),SYM_00002,Low Grade Fever,0.71,0
+DIS_00496,Down Syndrome (Trisomy 21),SYM_00009,Loss of Appetite,0.59,0
+DIS_00497,"Turner Syndrome (45,X)",SYM_00010,Generalized Malaise,0.95,1
+DIS_00497,"Turner Syndrome (45,X)",SYM_00005,Chronic Fatigue,0.83,0
+DIS_00497,"Turner Syndrome (45,X)",SYM_00002,Low Grade Fever,0.71,0
+DIS_00497,"Turner Syndrome (45,X)",SYM_00009,Loss of Appetite,0.59,0
+DIS_00498,"Klinefelter Syndrome (47,XXY)",SYM_00010,Generalized Malaise,0.95,1
+DIS_00498,"Klinefelter Syndrome (47,XXY)",SYM_00005,Chronic Fatigue,0.83,0
+DIS_00498,"Klinefelter Syndrome (47,XXY)",SYM_00002,Low Grade Fever,0.71,0
+DIS_00498,"Klinefelter Syndrome (47,XXY)",SYM_00009,Loss of Appetite,0.59,0
+DIS_00499,Fragile X Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00499,Fragile X Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00499,Fragile X Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00499,Fragile X Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00500,Phenylketonuria (PKU),SYM_00010,Generalized Malaise,0.95,1
+DIS_00500,Phenylketonuria (PKU),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00500,Phenylketonuria (PKU),SYM_00002,Low Grade Fever,0.71,0
+DIS_00500,Phenylketonuria (PKU),SYM_00009,Loss of Appetite,0.59,0
+DIS_00501,Galactosemia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00501,Galactosemia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00501,Galactosemia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00501,Galactosemia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00502,Congenital Hypothyroidism,SYM_00010,Generalized Malaise,0.95,1
+DIS_00502,Congenital Hypothyroidism,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00502,Congenital Hypothyroidism,SYM_00002,Low Grade Fever,0.71,0
+DIS_00502,Congenital Hypothyroidism,SYM_00009,Loss of Appetite,0.59,0
+DIS_00503,Infantile Colic,SYM_00010,Generalized Malaise,0.95,1
+DIS_00503,Infantile Colic,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00503,Infantile Colic,SYM_00002,Low Grade Fever,0.71,0
+DIS_00503,Infantile Colic,SYM_00009,Loss of Appetite,0.59,0
+DIS_00504,Neonatal Jaundice (Physiological),SYM_00010,Generalized Malaise,0.95,1
+DIS_00504,Neonatal Jaundice (Physiological),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00504,Neonatal Jaundice (Physiological),SYM_00002,Low Grade Fever,0.71,0
+DIS_00504,Neonatal Jaundice (Physiological),SYM_00009,Loss of Appetite,0.59,0
+DIS_00505,Transient Tachypnea of Newborn,SYM_00010,Generalized Malaise,0.95,1
+DIS_00505,Transient Tachypnea of Newborn,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00505,Transient Tachypnea of Newborn,SYM_00002,Low Grade Fever,0.71,0
+DIS_00505,Transient Tachypnea of Newborn,SYM_00009,Loss of Appetite,0.59,0
+DIS_00506,Bronchiolitis (RSV in Infants),SYM_00010,Generalized Malaise,0.95,1
+DIS_00506,Bronchiolitis (RSV in Infants),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00506,Bronchiolitis (RSV in Infants),SYM_00002,Low Grade Fever,0.71,0
+DIS_00506,Bronchiolitis (RSV in Infants),SYM_00009,Loss of Appetite,0.59,0
+DIS_00507,Febrile Seizures (Simple),SYM_00010,Generalized Malaise,0.95,1
+DIS_00507,Febrile Seizures (Simple),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00507,Febrile Seizures (Simple),SYM_00002,Low Grade Fever,0.71,0
+DIS_00507,Febrile Seizures (Simple),SYM_00009,Loss of Appetite,0.59,0
+DIS_00508,Roseola Infantum (HHV-6),SYM_00010,Generalized Malaise,0.95,1
+DIS_00508,Roseola Infantum (HHV-6),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00508,Roseola Infantum (HHV-6),SYM_00002,Low Grade Fever,0.71,0
+DIS_00508,Roseola Infantum (HHV-6),SYM_00009,Loss of Appetite,0.59,0
+DIS_00509,Erythema Infectiosum (Fifth Disease),SYM_00010,Generalized Malaise,0.95,1
+DIS_00509,Erythema Infectiosum (Fifth Disease),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00509,Erythema Infectiosum (Fifth Disease),SYM_00002,Low Grade Fever,0.71,0
+DIS_00509,Erythema Infectiosum (Fifth Disease),SYM_00009,Loss of Appetite,0.59,0
+DIS_00510,"Hand, Foot, and Mouth Disease (Coxsackie)",SYM_00010,Generalized Malaise,0.95,1
+DIS_00510,"Hand, Foot, and Mouth Disease (Coxsackie)",SYM_00005,Chronic Fatigue,0.83,0
+DIS_00510,"Hand, Foot, and Mouth Disease (Coxsackie)",SYM_00002,Low Grade Fever,0.71,0
+DIS_00510,"Hand, Foot, and Mouth Disease (Coxsackie)",SYM_00009,Loss of Appetite,0.59,0
+DIS_00511,Henoch-Schönlein Purpura (Pediatric),SYM_00010,Generalized Malaise,0.95,1
+DIS_00511,Henoch-Schönlein Purpura (Pediatric),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00511,Henoch-Schönlein Purpura (Pediatric),SYM_00002,Low Grade Fever,0.71,0
+DIS_00511,Henoch-Schönlein Purpura (Pediatric),SYM_00009,Loss of Appetite,0.59,0
+DIS_00512,Kawasaki Disease (Pediatric Vasculitis),SYM_00010,Generalized Malaise,0.95,1
+DIS_00512,Kawasaki Disease (Pediatric Vasculitis),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00512,Kawasaki Disease (Pediatric Vasculitis),SYM_00002,Low Grade Fever,0.71,0
+DIS_00512,Kawasaki Disease (Pediatric Vasculitis),SYM_00009,Loss of Appetite,0.59,0
+DIS_00513,Pyloric Stenosis (Infantile),SYM_00010,Generalized Malaise,0.95,1
+DIS_00513,Pyloric Stenosis (Infantile),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00513,Pyloric Stenosis (Infantile),SYM_00002,Low Grade Fever,0.71,0
+DIS_00513,Pyloric Stenosis (Infantile),SYM_00009,Loss of Appetite,0.59,0
+DIS_00514,Intussusception (Ileocolic),SYM_00010,Generalized Malaise,0.95,1
+DIS_00514,Intussusception (Ileocolic),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00514,Intussusception (Ileocolic),SYM_00002,Low Grade Fever,0.71,0
+DIS_00514,Intussusception (Ileocolic),SYM_00009,Loss of Appetite,0.59,0
+DIS_00515,Meckel Diverticulum,SYM_00010,Generalized Malaise,0.95,1
+DIS_00515,Meckel Diverticulum,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00515,Meckel Diverticulum,SYM_00002,Low Grade Fever,0.71,0
+DIS_00515,Meckel Diverticulum,SYM_00009,Loss of Appetite,0.59,0
+DIS_00516,Hirschsprung Disease (Aganglionic Megacolon),SYM_00010,Generalized Malaise,0.95,1
+DIS_00516,Hirschsprung Disease (Aganglionic Megacolon),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00516,Hirschsprung Disease (Aganglionic Megacolon),SYM_00002,Low Grade Fever,0.71,0
+DIS_00516,Hirschsprung Disease (Aganglionic Megacolon),SYM_00009,Loss of Appetite,0.59,0
+DIS_00517,Biliary Atresia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00517,Biliary Atresia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00517,Biliary Atresia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00517,Biliary Atresia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00518,Celiac Disease (Pediatric),SYM_00010,Generalized Malaise,0.95,1
+DIS_00518,Celiac Disease (Pediatric),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00518,Celiac Disease (Pediatric),SYM_00002,Low Grade Fever,0.71,0
+DIS_00518,Celiac Disease (Pediatric),SYM_00009,Loss of Appetite,0.59,0
+DIS_00519,Failure to Thrive (FTT),SYM_00010,Generalized Malaise,0.95,1
+DIS_00519,Failure to Thrive (FTT),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00519,Failure to Thrive (FTT),SYM_00002,Low Grade Fever,0.71,0
+DIS_00519,Failure to Thrive (FTT),SYM_00009,Loss of Appetite,0.59,0
+DIS_00520,Developmental Dysplasia of Hip (DDH),SYM_00010,Generalized Malaise,0.95,1
+DIS_00520,Developmental Dysplasia of Hip (DDH),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00520,Developmental Dysplasia of Hip (DDH),SYM_00002,Low Grade Fever,0.71,0
+DIS_00520,Developmental Dysplasia of Hip (DDH),SYM_00009,Loss of Appetite,0.59,0
+DIS_00521,Congenital Talipes Equinovarus (Clubfoot),SYM_00010,Generalized Malaise,0.95,1
+DIS_00521,Congenital Talipes Equinovarus (Clubfoot),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00521,Congenital Talipes Equinovarus (Clubfoot),SYM_00002,Low Grade Fever,0.71,0
+DIS_00521,Congenital Talipes Equinovarus (Clubfoot),SYM_00009,Loss of Appetite,0.59,0
+DIS_00522,Tourette Syndrome (Motor & Vocal Tics),SYM_00010,Generalized Malaise,0.95,1
+DIS_00522,Tourette Syndrome (Motor & Vocal Tics),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00522,Tourette Syndrome (Motor & Vocal Tics),SYM_00002,Low Grade Fever,0.71,0
+DIS_00522,Tourette Syndrome (Motor & Vocal Tics),SYM_00009,Loss of Appetite,0.59,0
+DIS_00523,Enuresis (Nocturnal),SYM_00010,Generalized Malaise,0.95,1
+DIS_00523,Enuresis (Nocturnal),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00523,Enuresis (Nocturnal),SYM_00002,Low Grade Fever,0.71,0
+DIS_00523,Enuresis (Nocturnal),SYM_00009,Loss of Appetite,0.59,0
+DIS_00524,Encopresis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00524,Encopresis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00524,Encopresis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00524,Encopresis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00525,Congenital Heart Defect (VSD),SYM_00010,Generalized Malaise,0.95,1
+DIS_00525,Congenital Heart Defect (VSD),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00525,Congenital Heart Defect (VSD),SYM_00002,Low Grade Fever,0.71,0
+DIS_00525,Congenital Heart Defect (VSD),SYM_00009,Loss of Appetite,0.59,0
+DIS_00526,Severe Systemic Anaphylaxis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00526,Severe Systemic Anaphylaxis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00526,Severe Systemic Anaphylaxis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00526,Severe Systemic Anaphylaxis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00527,Peanut & Tree Nut Anaphylaxis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00527,Peanut & Tree Nut Anaphylaxis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00527,Peanut & Tree Nut Anaphylaxis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00527,Peanut & Tree Nut Anaphylaxis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00528,Cow Milk Protein Allergy,SYM_00010,Generalized Malaise,0.95,1
+DIS_00528,Cow Milk Protein Allergy,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00528,Cow Milk Protein Allergy,SYM_00002,Low Grade Fever,0.71,0
+DIS_00528,Cow Milk Protein Allergy,SYM_00009,Loss of Appetite,0.59,0
+DIS_00529,Hymenoptera Venom Allergy (Bee/Wasp),SYM_00010,Generalized Malaise,0.95,1
+DIS_00529,Hymenoptera Venom Allergy (Bee/Wasp),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00529,Hymenoptera Venom Allergy (Bee/Wasp),SYM_00002,Low Grade Fever,0.71,0
+DIS_00529,Hymenoptera Venom Allergy (Bee/Wasp),SYM_00009,Loss of Appetite,0.59,0
+DIS_00530,Latex Allergy (Type I Hypersensitivity),SYM_00010,Generalized Malaise,0.95,1
+DIS_00530,Latex Allergy (Type I Hypersensitivity),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00530,Latex Allergy (Type I Hypersensitivity),SYM_00002,Low Grade Fever,0.71,0
+DIS_00530,Latex Allergy (Type I Hypersensitivity),SYM_00009,Loss of Appetite,0.59,0
+DIS_00531,Drug-Induced Anaphylactoid Reaction,SYM_00010,Generalized Malaise,0.95,1
+DIS_00531,Drug-Induced Anaphylactoid Reaction,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00531,Drug-Induced Anaphylactoid Reaction,SYM_00002,Low Grade Fever,0.71,0
+DIS_00531,Drug-Induced Anaphylactoid Reaction,SYM_00009,Loss of Appetite,0.59,0
+DIS_00532,Allergic Bronchopulmonary Aspergillosis (ABPA),SYM_00010,Generalized Malaise,0.95,1
+DIS_00532,Allergic Bronchopulmonary Aspergillosis (ABPA),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00532,Allergic Bronchopulmonary Aspergillosis (ABPA),SYM_00002,Low Grade Fever,0.71,0
+DIS_00532,Allergic Bronchopulmonary Aspergillosis (ABPA),SYM_00009,Loss of Appetite,0.59,0
+DIS_00533,Eosinophilic Granulomatosis with Polyangiitis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00533,Eosinophilic Granulomatosis with Polyangiitis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00533,Eosinophilic Granulomatosis with Polyangiitis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00533,Eosinophilic Granulomatosis with Polyangiitis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00534,Mast Cell Activation Syndrome (MCAS),SYM_00010,Generalized Malaise,0.95,1
+DIS_00534,Mast Cell Activation Syndrome (MCAS),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00534,Mast Cell Activation Syndrome (MCAS),SYM_00002,Low Grade Fever,0.71,0
+DIS_00534,Mast Cell Activation Syndrome (MCAS),SYM_00009,Loss of Appetite,0.59,0
+DIS_00535,Systemic Mastocytosis,SYM_00010,Generalized Malaise,0.95,1
+DIS_00535,Systemic Mastocytosis,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00535,Systemic Mastocytosis,SYM_00002,Low Grade Fever,0.71,0
+DIS_00535,Systemic Mastocytosis,SYM_00009,Loss of Appetite,0.59,0
+DIS_00536,Hereditary Angioedema Type 1 (C1-INH),SYM_00010,Generalized Malaise,0.95,1
+DIS_00536,Hereditary Angioedema Type 1 (C1-INH),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00536,Hereditary Angioedema Type 1 (C1-INH),SYM_00002,Low Grade Fever,0.71,0
+DIS_00536,Hereditary Angioedema Type 1 (C1-INH),SYM_00009,Loss of Appetite,0.59,0
+DIS_00537,Acquired Angioedema Type 2,SYM_00010,Generalized Malaise,0.95,1
+DIS_00537,Acquired Angioedema Type 2,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00537,Acquired Angioedema Type 2,SYM_00002,Low Grade Fever,0.71,0
+DIS_00537,Acquired Angioedema Type 2,SYM_00009,Loss of Appetite,0.59,0
+DIS_00538,Common Variable Immunodeficiency (CVID),SYM_00010,Generalized Malaise,0.95,1
+DIS_00538,Common Variable Immunodeficiency (CVID),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00538,Common Variable Immunodeficiency (CVID),SYM_00002,Low Grade Fever,0.71,0
+DIS_00538,Common Variable Immunodeficiency (CVID),SYM_00009,Loss of Appetite,0.59,0
+DIS_00539,Selective IgA Deficiency,SYM_00010,Generalized Malaise,0.95,1
+DIS_00539,Selective IgA Deficiency,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00539,Selective IgA Deficiency,SYM_00002,Low Grade Fever,0.71,0
+DIS_00539,Selective IgA Deficiency,SYM_00009,Loss of Appetite,0.59,0
+DIS_00540,Severe Combined Immunodeficiency (SCID),SYM_00010,Generalized Malaise,0.95,1
+DIS_00540,Severe Combined Immunodeficiency (SCID),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00540,Severe Combined Immunodeficiency (SCID),SYM_00002,Low Grade Fever,0.71,0
+DIS_00540,Severe Combined Immunodeficiency (SCID),SYM_00009,Loss of Appetite,0.59,0
+DIS_00541,X-Linked Agammaglobulinemia (Bruton),SYM_00010,Generalized Malaise,0.95,1
+DIS_00541,X-Linked Agammaglobulinemia (Bruton),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00541,X-Linked Agammaglobulinemia (Bruton),SYM_00002,Low Grade Fever,0.71,0
+DIS_00541,X-Linked Agammaglobulinemia (Bruton),SYM_00009,Loss of Appetite,0.59,0
+DIS_00542,Chronic Granulomatous Disease (CGD),SYM_00010,Generalized Malaise,0.95,1
+DIS_00542,Chronic Granulomatous Disease (CGD),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00542,Chronic Granulomatous Disease (CGD),SYM_00002,Low Grade Fever,0.71,0
+DIS_00542,Chronic Granulomatous Disease (CGD),SYM_00009,Loss of Appetite,0.59,0
+DIS_00543,Hyper-IgE Syndrome (Job Disease),SYM_00010,Generalized Malaise,0.95,1
+DIS_00543,Hyper-IgE Syndrome (Job Disease),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00543,Hyper-IgE Syndrome (Job Disease),SYM_00002,Low Grade Fever,0.71,0
+DIS_00543,Hyper-IgE Syndrome (Job Disease),SYM_00009,Loss of Appetite,0.59,0
+DIS_00544,DiGeorge Syndrome (22q11.2 Deletion),SYM_00010,Generalized Malaise,0.95,1
+DIS_00544,DiGeorge Syndrome (22q11.2 Deletion),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00544,DiGeorge Syndrome (22q11.2 Deletion),SYM_00002,Low Grade Fever,0.71,0
+DIS_00544,DiGeorge Syndrome (22q11.2 Deletion),SYM_00009,Loss of Appetite,0.59,0
+DIS_00545,Ataxia-Telangiectasia,SYM_00010,Generalized Malaise,0.95,1
+DIS_00545,Ataxia-Telangiectasia,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00545,Ataxia-Telangiectasia,SYM_00002,Low Grade Fever,0.71,0
+DIS_00545,Ataxia-Telangiectasia,SYM_00009,Loss of Appetite,0.59,0
+DIS_00546,Wiskott-Aldrich Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00546,Wiskott-Aldrich Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00546,Wiskott-Aldrich Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00546,Wiskott-Aldrich Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00547,Autoimmune Lymphoproliferative Syndrome (ALPS),SYM_00010,Generalized Malaise,0.95,1
+DIS_00547,Autoimmune Lymphoproliferative Syndrome (ALPS),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00547,Autoimmune Lymphoproliferative Syndrome (ALPS),SYM_00002,Low Grade Fever,0.71,0
+DIS_00547,Autoimmune Lymphoproliferative Syndrome (ALPS),SYM_00009,Loss of Appetite,0.59,0
+DIS_00548,Idiopathic Cold Agglutinin Disease,SYM_00010,Generalized Malaise,0.95,1
+DIS_00548,Idiopathic Cold Agglutinin Disease,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00548,Idiopathic Cold Agglutinin Disease,SYM_00002,Low Grade Fever,0.71,0
+DIS_00548,Idiopathic Cold Agglutinin Disease,SYM_00009,Loss of Appetite,0.59,0
+DIS_00549,Paroxysmal Cold Hemoglobinuria,SYM_00010,Generalized Malaise,0.95,1
+DIS_00549,Paroxysmal Cold Hemoglobinuria,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00549,Paroxysmal Cold Hemoglobinuria,SYM_00002,Low Grade Fever,0.71,0
+DIS_00549,Paroxysmal Cold Hemoglobinuria,SYM_00009,Loss of Appetite,0.59,0
+DIS_00550,Serum Sickness Reaction,SYM_00010,Generalized Malaise,0.95,1
+DIS_00550,Serum Sickness Reaction,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00550,Serum Sickness Reaction,SYM_00002,Low Grade Fever,0.71,0
+DIS_00550,Serum Sickness Reaction,SYM_00009,Loss of Appetite,0.59,0
+DIS_00551,Arthus Reaction (Local Immune Complex),SYM_00010,Generalized Malaise,0.95,1
+DIS_00551,Arthus Reaction (Local Immune Complex),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00551,Arthus Reaction (Local Immune Complex),SYM_00002,Low Grade Fever,0.71,0
+DIS_00551,Arthus Reaction (Local Immune Complex),SYM_00009,Loss of Appetite,0.59,0
+DIS_00552,Chronic Inflammatory Demyelinating Polyneuropathy,SYM_00010,Generalized Malaise,0.95,1
+DIS_00552,Chronic Inflammatory Demyelinating Polyneuropathy,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00552,Chronic Inflammatory Demyelinating Polyneuropathy,SYM_00002,Low Grade Fever,0.71,0
+DIS_00552,Chronic Inflammatory Demyelinating Polyneuropathy,SYM_00009,Loss of Appetite,0.59,0
+DIS_00553,Autoimmune Encephalitis (Anti-NMDAR),SYM_00010,Generalized Malaise,0.95,1
+DIS_00553,Autoimmune Encephalitis (Anti-NMDAR),SYM_00005,Chronic Fatigue,0.83,0
+DIS_00553,Autoimmune Encephalitis (Anti-NMDAR),SYM_00002,Low Grade Fever,0.71,0
+DIS_00553,Autoimmune Encephalitis (Anti-NMDAR),SYM_00009,Loss of Appetite,0.59,0
+DIS_00554,Stiff-Person Syndrome,SYM_00010,Generalized Malaise,0.95,1
+DIS_00554,Stiff-Person Syndrome,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00554,Stiff-Person Syndrome,SYM_00002,Low Grade Fever,0.71,0
+DIS_00554,Stiff-Person Syndrome,SYM_00009,Loss of Appetite,0.59,0
+DIS_00555,Autoimmune Enteropathy,SYM_00010,Generalized Malaise,0.95,1
+DIS_00555,Autoimmune Enteropathy,SYM_00005,Chronic Fatigue,0.83,0
+DIS_00555,Autoimmune Enteropathy,SYM_00002,Low Grade Fever,0.71,0
+DIS_00555,Autoimmune Enteropathy,SYM_00009,Loss of Appetite,0.59,0

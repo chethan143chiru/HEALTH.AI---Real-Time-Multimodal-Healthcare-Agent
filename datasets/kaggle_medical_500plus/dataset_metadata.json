@@ -1,0 +1,33 @@
+{
+  "name": "Kaggle & Columbia Clinical Medical Knowledge Graph Dataset",
+  "version": "3.5.0",
+  "total_diseases": 555,
+  "total_symptoms": 2230,
+  "total_clinical_associations": 2218,
+  "medical_specialties_count": 18,
+  "body_systems_count": 16,
+  "data_sources": [
+    "Kaggle Comprehensive Disease & Symptom Classification Benchmark",
+    "Columbia University Medical Center Clinical Concept Graph",
+    "World Health Organization (WHO) ICD-10 Coding Framework",
+    "PubMed & MeSH Biomedical Ontologies"
+  ],
+  "files": [
+    {
+      "filename": "diseases_500_plus.csv",
+      "description": "520+ clinical diseases with ICD-10 codes, risk tiers, and treatment guidelines",
+      "records": 555
+    },
+    {
+      "filename": "symptoms_2000_plus.csv",
+      "description": "2,050+ granular clinical symptoms categorized by 16 body systems with severity weights",
+      "records": 2230
+    },
+    {
+      "filename": "disease_symptoms_matrix_kaggle.csv",
+      "description": "Co-occurrence association matrix connecting diseases to diagnostic symptoms",
+      "records": 2218
+    }
+  ],
+  "generated_at": "2026-08-23T11:31:42.214Z"
+}

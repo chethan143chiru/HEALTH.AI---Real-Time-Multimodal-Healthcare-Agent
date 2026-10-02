@@ -1,0 +1,244 @@
+{
+  "intents": [
+    {
+      "intent": "greeting",
+      "examples": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "hello health buddy",
+        "hey there",
+        "hi assistant",
+        "greetings",
+        "are you there",
+        "howdy"
+      ],
+      "responses": [
+        "Hello! I am Health Buddy, your local AI Health Assistant. How can I support your wellbeing and health inquiries today?",
+        "Greetings! I'm here to provide evidence-based health information, lifestyle advice, and wellness guidance. What can I help you with?",
+        "Hello there! Welcome to Health.ai. Feel free to ask any questions about symptoms, healthy habits, nutrition, or your wellness metrics."
+      ]
+    },
+    {
+      "intent": "goodbye",
+      "examples": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "farewell",
+        "thank you bye",
+        "have a good day",
+        "talk to you soon",
+        "exit",
+        "quit"
+      ],
+      "responses": [
+        "Take care of your health! Remember to stay hydrated, get restful sleep, and consult a doctor whenever needed.",
+        "Goodbye! Wishing you vibrant health and wellness. Feel free to return anytime you have health questions.",
+        "Have a wonderful day! Stay proactive with your daily health routine."
+      ]
+    },
+    {
+      "intent": "fever_information",
+      "examples": [
+        "what is fever",
+        "why do i have fever",
+        "how to treat fever",
+        "high temperature remedies",
+        "fever management",
+        "my body feels hot and feverish",
+        "what should i do if i have fever",
+        "fever causes and tips",
+        "how to reduce fever naturally"
+      ],
+      "responses": [
+        "A fever is a temporary elevation in body temperature (above 38°C / 100.4°F), typically signaling that your immune system is combating an infection. Stay well-hydrated with water and electrolyte broths, rest in a cool environment, and apply lukewarm compresses. Seek immediate medical attention if temperature exceeds 39.4°C (103°F) or persists beyond 3 days."
+      ],
+      "warning": "Seek emergency care if fever is accompanied by severe stiff neck, confusion, or difficulty breathing."
+    },
+    {
+      "intent": "cough_information",
+      "examples": [
+        "what causes coughing",
+        "how to cure dry cough",
+        "wet cough remedies",
+        "coughing phlegm",
+        "how to soothe my throat and cough",
+        "persistent cough treatment",
+        "cough relief tips",
+        "chest cough remedies"
+      ],
+      "responses": [
+        "Coughing is a natural reflex that clears your respiratory airway of irritants and mucus. For dry coughs, warm honey-lemon water and room humidifiers provide soothing relief. For productive (wet) coughs, stay hydrated to thin mucus secretions. Consult a physician if cough lasts over 2 weeks or contains blood."
+      ],
+      "warning": "If you experience coughing up blood (hemoptysis) or severe chest pain, seek immediate medical evaluation."
+    },
+    {
+      "intent": "headache_information",
+      "examples": [
+        "headache remedies",
+        "why is my head pounding",
+        "migraine relief",
+        "tension headache causes",
+        "how to stop a headache",
+        "severe head pain",
+        "headache and dizziness remedies",
+        "temple pain relief"
+      ],
+      "responses": [
+        "Headaches often stem from stress, tension, eye strain, dehydration, or lack of sleep. Rest in a dark, quiet room, drink a tall glass of water, apply a cold or warm compress to your temples or neck, and practice slow diaphragmatic breathing. If headaches are recurrent or sudden and explosive, consult a neurologist."
+      ],
+      "warning": "A sudden, severe 'thunderclap' headache with neurological deficit requires emergency evaluation."
+    },
+    {
+      "intent": "hydration",
+      "examples": [
+        "how much water should i drink",
+        "hydration tips",
+        "signs of dehydration",
+        "daily fluid intake",
+        "how to stay hydrated",
+        "benefits of drinking water",
+        "water intake recommendations"
+      ],
+      "responses": [
+        "Adequate hydration is vital for cellular metabolism, joint lubrication, and cognitive clarity. Most healthy adults require approximately 2.5 to 3.5 Liters (8–12 cups) of fluid daily, increasing with hot weather or intense exercise. Check your urine color: pale straw yellow indicates optimal hydration."
+      ]
+    },
+    {
+      "intent": "nutrition",
+      "examples": [
+        "healthy diet plan",
+        "what should i eat for wellness",
+        "nutrition advice",
+        "foods for immunity",
+        "anti inflammatory diet",
+        "how to eat healthier",
+        "balanced meal recommendations",
+        "what vitamins do i need"
+      ],
+      "responses": [
+        "A wholesome diet emphasizes colorful vegetables, fresh fruits, whole grains, legumes, lean proteins, and omega-3 rich healthy fats like olive oil and nuts. Minimize ultra-processed foods, refined sugars, and excessive sodium to support cardiovascular resilience and gut microbiome diversity."
+      ]
+    },
+    {
+      "intent": "exercise",
+      "examples": [
+        "how much exercise do i need",
+        "workout recommendations",
+        "cardio vs strength training",
+        "exercise for beginners",
+        "daily physical activity goals",
+        "how to stay active",
+        "benefits of walking"
+      ],
+      "responses": [
+        "Health authorities recommend at least 150 minutes of moderate aerobic exercise (such as brisk walking or cycling) or 75 minutes of vigorous exercise weekly, paired with 2 days of muscle-strengthening activities. Daily 30-minute walks dramatically reduce cardiovascular disease and diabetes risks."
+      ]
+    },
+    {
+      "intent": "sleep",
+      "examples": [
+        "how to sleep better",
+        "insomnia remedies",
+        "how many hours of sleep do i need",
+        "sleep hygiene tips",
+        "trouble falling asleep",
+        "why am i always tired",
+        "improving sleep quality"
+      ],
+      "responses": [
+        "Adults thrive best with 7 to 9 hours of quality sleep each night. Maintain sleep hygiene by keeping a fixed sleep schedule, dimming blue light screens 1 hour before bed, keeping the bedroom cool and dark, and avoiding caffeine or heavy meals within 4 hours of sleeping."
+      ]
+    },
+    {
+      "intent": "bmi_information",
+      "examples": [
+        "what is bmi",
+        "how is bmi calculated",
+        "is my bmi normal",
+        "bmi categories",
+        "body mass index explanation",
+        "how to lower my bmi",
+        "what does my body mass index mean"
+      ],
+      "responses": [
+        "Body Mass Index (BMI) assesses weight relative to height: Underweight (<18.5), Normal (18.5–24.9), Overweight (25–29.9), and Obese (≥30). While BMI is a useful screening baseline, it does not distinguish between muscle mass and adipose tissue. You can use our built-in BMI calculator for your precise metric."
+      ]
+    },
+    {
+      "intent": "stress",
+      "examples": [
+        "how to manage stress",
+        "stress relief techniques",
+        "im feeling overwhelmed and stressed",
+        "reducing daily anxiety and stress",
+        "stress management tips",
+        "mental relaxation exercises"
+      ],
+      "responses": [
+        "Chronic stress elevates cortisol and strains the immune system. Counteract stress with 4-7-8 diaphragmatic breathing, mindful meditation, progressive muscle relaxation, 20-minute daily nature walks, and setting healthy work-life boundaries. Check out our Mental Health module for guided breathing exercises."
+      ]
+    },
+    {
+      "intent": "blood_pressure",
+      "examples": [
+        "what is normal blood pressure",
+        "how to lower high blood pressure",
+        "hypertension guidance",
+        "systolic vs diastolic bp",
+        "blood pressure readings explained",
+        "is 140 over 90 high"
+      ],
+      "responses": [
+        "A normal blood pressure is typically below 120/80 mmHg. Stage 1 hypertension begins at 130–139 systolic or 80–89 diastolic. Maintain healthy BP through the DASH diet (rich in potassium and magnesium), limiting sodium to <2,000mg daily, regular aerobic exercise, and stress reduction."
+      ]
+    },
+    {
+      "intent": "emergency_guidance",
+      "examples": [
+        "severe chest pain",
+        "i cannot breathe",
+        "chest tightness radiating to arm",
+        "sudden numbness on one side of body",
+        "unconscious person",
+        "heavy bleeding emergency",
+        "signs of a stroke or heart attack",
+        "choking emergency"
+      ],
+      "responses": [
+        "CRITICAL ALERT: If you or someone around you is experiencing severe crushing chest pain, difficulty breathing, sudden facial drooping/arm weakness, or severe hemorrhage, call your local Emergency Medical Services (e.g. 911 / 112) immediately! Do not wait for online assistance."
+      ]
+    },
+    {
+      "intent": "prediction_explanation",
+      "examples": [
+        "how does the disease prediction work",
+        "can you explain my prediction",
+        "is the disease diagnosis accurate",
+        "how are symptoms analyzed",
+        "explain the machine learning model",
+        "tell me about my predicted disease"
+      ],
+      "responses": [
+        "Health.ai's disease prediction engine uses a dataset-trained Machine Learning Classifier trained on 4,920 validated clinical symptom records across 41 disease classes. It calculates statistical likelihoods and relative symptom importance weights. Please note that this is an educational screening tool and not a replacement for a clinical diagnosis."
+      ]
+    },
+    {
+      "intent": "medical_disclaimer",
+      "examples": [
+        "are you a doctor",
+        "is this medical advice",
+        "can i take medicine based on this",
+        "medical liability disclaimer",
+        "are your recommendations certified"
+      ],
+      "responses": [
+        "I am an educational AI Health Assistant and NOT a licensed medical doctor. All information, predictions, and tips provided by Health.ai are for health literacy and wellness education only. Always consult a qualified medical professional for diagnosis and treatment."
+      ]
+    }
+  ]
+}

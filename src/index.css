@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  
+  --color-brand-primary: #3b82f6; /* Blue 500 */
+  --color-brand-secondary: #2563eb; /* Blue 600 */
+  --color-brand-accent: #6366f1; /* Indigo 500 */
+  --color-brand-emerald: #10b981;
+  
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-blur: 12px;
+}
+
+@layer base {
+  body {
+    @apply text-slate-200 antialiased selection:bg-blue-500 selection:text-white;
+    font-family: var(--font-sans);
+    background: radial-gradient(circle at top left, #0f172a, #1e293b) fixed;
+  }
+}
+
+.glass-card {
+  @apply bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl shadow-xl transition-all duration-300;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-400;
+}
+
+.btn-primary {
+  @apply px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl shadow-lg shadow-blue-600/30 transition-all active:scale-95;
+}
+
+.accent-border {
+  @apply border-l-4 border-l-blue-500;
+}

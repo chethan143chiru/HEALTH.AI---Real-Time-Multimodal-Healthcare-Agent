@@ -1,0 +1,14 @@
+{
+  "alicesmith@patient.org": {
+    "id": "usr_mupn4fjwtngazb",
+    "uid": "usr_mupn4fjwtngazb",
+    "name": "Alice Smith",
+    "email": "alicesmith@patient.org",
+    "password": "ad8e7c216e3729fc61d9f8a12c0d1eec2995df7e5e39596c466e45485523dfee",
+    "role": "user",
+    "verified": true,
+    "photo": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice%20Smith",
+    "createdAt": "2026-10-01T14:39:32.540Z",
+    "updatedAt": "2026-10-01T14:39:32.540Z"
+  }
+}

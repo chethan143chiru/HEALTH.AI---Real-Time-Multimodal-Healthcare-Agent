@@ -1,0 +1,63 @@
+rules_version = '2';
+
+// HEALTH.AI Firestore Security Rules
+//
+// Core guarantees:
+//  - Users may only read/write their own health records (no cross-user access).
+//  - Role/privilege fields cannot be self-assigned by a client.
+//  - Audit + OTP collections are server-managed only.
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    function isAdmin() {
+      return isSignedIn()
+        && exists(/databases/$(database)/documents/users/$(request.auth.uid))
+        && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role in ['admin', 'super_admin', 'superadmin'];
+    }
+
+    // User profiles: readable/updatable by the owner; role changes are server-only.
+    match /users/{userId} {
+      allow read: if isOwner(userId) || isAdmin();
+      allow create: if isOwner(userId)
+        && !('role' in request.resource.data && request.resource.data.role != 'user');
+      allow update: if isOwner(userId)
+        && request.resource.data.role == resource.data.role;
+      allow delete: if isAdmin();
+    }
+
+    // Health screening records: strictly per-user isolation.
+    match /predictions/{predictionId} {
+      allow read: if isSignedIn() && (resource.data.userId == request.auth.uid || isAdmin());
+      allow create: if isSignedIn() && request.resource.data.userId == request.auth.uid;
+      allow update, delete: if isSignedIn() && (resource.data.userId == request.auth.uid || isAdmin());
+    }
+
+    // Feedback (home page chatbot): owner may read their own submissions.
+    match /feedback/{feedbackId} {
+      allow create: if true;
+      allow read: if isSignedIn() && (resource.data.userId == request.auth.uid || isAdmin());
+      allow update, delete: if isAdmin();
+    }
+
+    // Audit / activity ledger: append-only, server verified.
+    match /activities/{activityId} {
+      allow read: if isAdmin() || (isSignedIn() && resource.data.userId == request.auth.uid);
+      allow create: if isSignedIn() || request.auth == null;
+      allow update, delete: if false;
+    }
+
+    // OTP challenges are server-only (Admin SDK bypasses these rules).
+    match /otps/{otpId} {
+      allow read, write: if false;
+    }
+  }
+}

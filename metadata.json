@@ -1,0 +1,6 @@
+{
+  "name": "AI Health Prediction System",
+  "description": "A comprehensive healthcare platform featuring AI disease prediction, prescription OCR, medical image analysis, live camera scanning, health analytics, and AI assistant.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API", "AI Prediction", "Health Analytics", "Report Generation"]
+}

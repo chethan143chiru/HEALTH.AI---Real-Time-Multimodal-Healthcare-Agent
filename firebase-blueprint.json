@@ -1,0 +1,69 @@
+{
+  "entities": {
+    "User": {
+      "title": "User Profile",
+      "description": "Registered user of the application",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "mobile": { "type": "string" },
+        "role": { "type": "string", "enum": ["user", "admin"] },
+        "photo": { "type": "string" },
+        "age": { "type": "string" },
+        "gender": { "type": "string" },
+        "address": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "name", "mobile", "role"]
+    },
+    "Prediction": {
+      "title": "Health Prediction",
+      "description": "AI generated health report",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "symptoms": { "type": "array", "items": { "type": "string" } },
+        "result": { "type": "object" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "userId", "symptoms", "result", "createdAt"]
+    },
+    "Feedback": {
+      "title": "User Feedback",
+      "description": "Messages or queries from the home page chatbot",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "userName": { "type": "string" },
+        "message": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "message", "createdAt"]
+    },
+    "Activity": {
+      "title": "User Activity Log",
+      "description": "Audit trail log track of login, logout, and profile changes",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "userName": { "type": "string" },
+        "type": { "type": "string", "enum": ["login", "logout", "profile_update"] },
+        "details": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "userName", "type", "details"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": { "schema": "User", "description": "User profiles" },
+    "/predictions/{predictionId}": { "schema": "Prediction", "description": "Individual health analysis reports" },
+    "/feedback/{feedbackId}": { "schema": "Feedback", "description": "User feedback and chatbot messages" },
+    "/activities/{activityId}": { "schema": "Activity", "description": "Live user activities and platform audit trail" }
+  }
+}
